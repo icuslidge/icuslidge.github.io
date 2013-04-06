@@ -1,0 +1,10 @@
+
+/* -------------------- pattern :maze-white --------------------- */
+
+body{ 
+ background:url("../img/pattern/maze_white.png") #FFF;
+}
+
+.thumbs-up {
+ background:url("../img/pattern/maze_white.png");
+}

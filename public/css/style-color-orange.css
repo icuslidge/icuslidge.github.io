@@ -1,0 +1,119 @@
+/* -------------------- body --------------------- */
+
+h1,h2,h3,h4,h5,h6 {
+    color: #FDB826;
+}
+a:hover {
+    color: #FDB826;
+}
+
+/* -------------------- logo --------------------- */
+
+.sidebar-style .logo i {
+    color: #FDB826;
+}
+
+/* -------------------- btn --------------------- */
+
+.btn-orange {
+	color: #FFFFFF;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #fdad04;
+	*background-color: #fdad04;
+	background-image: -moz-linear-gradient(top, #FDB826, #fdad04);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FDB826), to(#fdad04));
+	background-image: -webkit-linear-gradient(top, #FDB826, #fdad04);
+	background-image: -o-linear-gradient(top, #FDB826, #fdad04);
+	background-image: linear-gradient(to bottom, #FDB826, #fdad04);
+	background-repeat: repeat-x;
+	border-color: #fdad04;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FDB826', endColorstr='#fdad04', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-orange:hover,
+.btn-orange:active,
+.btn-orange.active,
+.btn-orange.disabled,
+.btn-orange[disabled] {
+	color: #FFFFFF;
+	background-color: #fdad04;
+	*background-color: #003bb3;
+}
+
+/* -------------------- home --------------------- */
+
+.home-features .icon {
+    color: #FDB826;
+}
+
+/* -------------------- project --------------------- */
+
+.icon-muted {
+    color: #FDB826;
+}
+.icon-border {
+	border-color: #FDB826;
+}
+
+/* -------------------- about --------------------- */
+
+.knob input {
+	color: #FDB826;
+}
+
+/* -------------------- work --------------------- */
+
+.tag-css a {
+    background: none repeat scroll 0 0 #4E4E4E;
+    color: #FFFFFF;
+}
+.tag-css a:before {
+    border-color: transparent #4E4E4E transparent transparent;
+}
+.tag-css a:after {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.tag-css a:hover {
+    background: none repeat scroll 0 0 #FDB826;
+    color: #4E4E4E;
+}
+.tag-css a:hover:before {
+    border-color: transparent #FDB826 transparent transparent;
+    color: #4E4E4E;
+}
+.tag-css a:active {
+    background: none repeat scroll 0 0 #eea202;
+    color: #4E4E4E;
+}
+.tag-css a:active:before {
+    border-color: transparent #eea202 transparent transparent;
+    color: #4E4E4E;
+}
+
+/* -------------------- contact --------------------- */
+
+.content-contact .title i{
+	color: #FDB826;
+}
+
+.input-append .add-on, .input-prepend .add-on {
+  background-color: #FDB826;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+    border-color: rgba(253,184,38, 0.6);
+    -webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(253,184,38, 0.6);
+       -moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(253,184,38, 0.6);
+            box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(253,184,38, 0.6);
+    outline: 0 none;
+}
+
+/* -------------------- Post --------------------- */
+
+.sidebar-right .sidebar-tag {
+    background: none repeat scroll 0 0 #FDB826;
+}
+.sidebar-right .sidebar-tag:hover {
+    background: none repeat scroll 0 0 #fdad04;
+}

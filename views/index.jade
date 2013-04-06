@@ -1,0 +1,54 @@
+extends layout
+
+block body
+  #outer-wrap
+    #inner-wrap
+      //- start: sidebar
+      .span2
+        #top.sidebar-style.sidebar-nav.sidebar-nav-fixed
+          .block.logo
+            //- Logo
+            a.block-title(href='/')
+              | Ian Cuslidge
+              i.icon-plus-sign
+            a#nav-open-btn.nav-btn(data-icon='icon-lightbulb', ng-href='')
+              i.icon-reorder.icon-2x
+          .baseline-border
+            .baseline
+              p A camel is a horse
+              p designed by a committee.
+          nav#nav(role='navigation')
+            .block
+              ul
+                li.is-active
+                  a.info(href='info') Info
+                li
+                  a.bio(href='bio') Bio
+                li
+                  a.portfolio(href='portfolio') Portfolio
+                li
+                  a.gallery(href='gallery') Gallery
+              a#nav-close-btn.close-btn(ng-href='')
+                i.icon-remove.icon-2x.icon-border
+          //- .social
+            a(href='#')
+              i.icon-facebook
+            a(href='#')
+              i.icon-twitter
+            a(href='#')
+              i.icon-google-plus
+            a(href='#')
+              i.icon-pinterest-sign
+      //- end: sidebar
+      //- start: content
+      .content(ng-view)
+      //- end: content
+      //- start: back to top
+      .up
+        //- a.btn.btn-large.btn-orange.btn-red-pastel.btn-steelblue.btn-darkslategrey(href='#')
+        a.btn.btn-large.btn-orange(ng-href='')
+          | Back to top
+          i.icon-chevron-up
+      //- end: back to top
+    //- end: inner-wrap
+  //- end: outer-wrap
