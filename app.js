@@ -82,6 +82,7 @@ var assetManager = require('connect-assetmanager')({
     , 'app.js'
     , 'lib/responsiveslides.min.js'
     , 'lib/isotope.js'
+    , 'lib/jquery.colorbox.js'
     , 'lib/knob.js'
     , 'lib/jquery.cookie.js'
     // , '*'
@@ -112,6 +113,7 @@ var assetManager = require('connect-assetmanager')({
   , files: [ // order matters here
     //   'bootstrap.css'
     // , 'bootstrap-responsive.css'
+    // , 'colorbox.css'
     // , 'style.css'
     // , 'style-bgd-maze-white.css'
     // , 'style-color-orange.css'

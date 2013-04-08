@@ -1,6 +1,6 @@
 var maps = {
 cp_process: { name: 'cp_process'
-  , banner: 'img/map/titlebanner/cp_process_b10.jpg'
+  , imageDirectory: 'cp_process_b10'
   , downloadLink: 'https://dl.dropbox.com/u/3492731/process/cp_process_rc2.bsp'
   , isInRotation: true
   , leaguesPlayedIn: 'ESEA, ETF2L, UGC, OZFL, AFL'
@@ -35,7 +35,7 @@ cp_process: { name: 'cp_process'
     ]
   }
 , cp_standin: { name: 'cp_standin'
-  , banner: 'img/map/titlebanner/cp_standin_rc1.jpg'
+  , imageDirectory: 'cp_standin_rc1'
   , downloadLink: 'https://dl.dropbox.com/u/3492731/standin/cp_standin_rc1.bsp'
   , isInRotation: false
   , leaguesPlayedIn: 'ESEA, UGC, OZFL, AFL'
@@ -95,7 +95,7 @@ cp_process: { name: 'cp_process'
     ]
   }
 , cp_metalworks: { name: 'cp_metalworks'
-  , banner: 'img/map/titlebanner/cp_metalworks_rc2.jpg'
+  , imageDirectory: 'cp_metalworks_rc2'
   , downloadLink: 'https://dl.dropbox.com/u/3492731/revenant/cp_metalworks_rc3.bsp'
   , isInRotation: false
   , leaguesPlayedIn: ''
@@ -128,7 +128,7 @@ cp_process: { name: 'cp_process'
     ]
   }
 , cp_ashville: { name: 'cp_ashville'
-  , banner: 'img/map/titlebanner/cp_ashville_b6.jpg'
+  , imageDirectory: 'cp_ashville_b6'
   , downloadLink: 'https://dl.dropbox.com/u/3492731/Ashville/cp_ashville_b6.bsp'
   , isInRotation: false
   , leaguesPlayedIn: ''
@@ -164,7 +164,7 @@ cp_process: { name: 'cp_process'
     ]
   }
 , ctf_haunt: { name: 'ctf_haunt'
-  , banner: 'img/map/titlebanner/ctf_haunt_b1.jpg'
+  , imageDirectory: 'ctf_haunt_b1'
   , downloadLink: 'https://dl.dropbox.com/u/3492731/ctf_haunt/ctf_haunt_b2.bsp'
   , isInRotation: false
   , leaguesPlayedIn: ''
@@ -211,7 +211,7 @@ cp_process: { name: 'cp_process'
     ]
   }
 , cp_frost: { name: 'cp_frost'
-  , banner: 'img/map/titlebanner/cp_frost_b6.jpg'
+  , imageDirectory: 'cp_frost_b6'
   , downloadLink: 'https://dl.dropbox.com/u/3492731/cp_frost_b6.bsp'
   , isInRotation: false
   , leaguesPlayedIn: ''
@@ -246,7 +246,7 @@ cp_process: { name: 'cp_process'
     ]
   }
 , cp_extraction: { name: 'cp_extraction'
-  , banner: 'img/map/titlebanner/cp_extraction_rc2.jpg'
+  , imageDirectory: 'cp_extraction_rc2'
   , downloadLink: 'https://dl.dropbox.com/u/3492731/cp_extraction_rc2.bsp'
   , isInRotation: false
   , leaguesPlayedIn: ''
@@ -270,7 +270,8 @@ cp_process: { name: 'cp_process'
     ]
   }
 , cp_warmachine: { name: 'cp_warmachine'
-  , banner: 'img/map/titlebanner/cp_warmachine_rc4.jpg'
+  , imageDirectory: 'cp_warmachine_rc4'
+  , numOfImages: 4
   , downloadLink: 'https://dl.dropbox.com/u/3492731/cp_warmachine_rc4.bsp'
   , isInRotation: false
   , leaguesPlayedIn: ''

@@ -13,7 +13,7 @@
 @import url("isotope.css");                               /* Isotope portfolio*/
 @import url("canvas-menu.css");                           /* canvas-off Menu */
 @import url("animate.css");                               /* animate motion */
-/*@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400);*/
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400);
 
 /* ===== style switcher ===== */
 /*
@@ -68,8 +68,8 @@ body{
   font:16px/26px;
   /*color: #5d5d5d;background:url("../img/pattern/gray_jean.png") #FFF;*/
   color: #5d5d5d;
-  /*font-family: 'Source Sans Pro', sans-serif;*/
-  font-family: sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*font-family: sans-serif;*/
 	}
 a{
   /*overridden*/
@@ -335,7 +335,7 @@ h3 {
 }
 
 /* ===== @work ===== */
-
+/*
 #options {
   margin: 45px 0 0 0px;
 }
@@ -473,7 +473,7 @@ h3 {
   -khtml-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
-}
+}*/
 
 
 /* ===== @post ===== */
@@ -1151,6 +1151,157 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
  }
 
 
+/* ===== isotope stuff ===== */
+
+#options {
+  margin: 45px 0 0 0px;
+}
+#options ul {
+  margin: 0;
+  list-style: none;
+}
+#options ul ul {
+ margin-left: 1.5em;
+}
+#options li {
+  display: block;
+  float: left;
+  margin-bottom: 0.2em;
+  margin-right: 0.2em;
+}
+#options li a {
+  display: block;
+  padding: 0.4em 0.5em;
+}
+.tag-css {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.tag-css li, .tag-css a {
+  float: left;
+  font-size: 11px;
+  height: 24px;
+  line-height: 14px;
+  position: relative;
+}
+.tag-css a {
+  background: none repeat scroll 0 0 #4E4E4E;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  color: #FFFFFF;
+  height: 16px;
+  margin-left: 20px;
+  padding: 0 10px 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.tag-css a:before {
+  border-color: transparent #4E4E4E transparent transparent;
+  border-style: solid;
+  border-width: 12px 12px 12px 0;
+  content: "";
+  float: left;
+  height: 0;
+  left: -12px;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+.tag-css a:after {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: -1px -1px 2px #004977;
+  content: "";
+  float: left;
+  height: 4px;
+  left: -2px;
+  position: absolute;
+  top: 10px;
+  width: 4px;
+}
+.tag-css a:hover {
+  background: none repeat scroll 0 0 #FDB826;
+  color: #4E4E4E;
+}
+.tag-css a:hover:before {
+  border-color: transparent #FDB826 transparent transparent;
+  color: #4E4E4E;
+}
+.tag-css a:active {
+  background: none repeat scroll 0 0 #eea202;
+  color: #4E4E4E;
+}
+.tag-css a:active:before {
+  border-color: transparent #eea202 transparent transparent;
+  color: #4E4E4E;
+}
+.image-overlay-link, .image-overlay-zoom {
+  background: none no-repeat scroll 50% center rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition:all 0.3s ease-in-out 0s;
+    -moz-transition:all 0.3s ease-in-out 0s;
+      -o-transition:all 0.3s ease-in-out 0s;
+        transition:all 0.3s ease-in-out 0s;
+  width: 100%;
+  z-index: 40;
+}
+.image-overlay-link {
+  background-image: url("../img/overlay-icon-01.png");
+}
+.image-overlay-zoom {
+  background-image: url("../img/overlay-icon-02.png");
+}
+.thumbs {
+  position: relative;
+  /*width: 270px;*/
+  /*height: 270px;*/
+  width: 120px;
+  height: 68px;
+  /*margin: 0 auto 20px;*/
+  margin: 0 1px 4px;
+  border: none;
+}
+.thumbs a span{
+  background: #f9f9f9;
+  font-size: 30px;
+  border: none;
+  height: 97%;
+  left: 5px;
+  line-height: 250px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  -webkit-transition:opacity 0.3s linear 0s;
+    -moz-transition:opacity 0.3s linear 0s;
+      -o-transition:opacity 0.3s linear 0s;
+         transition:opacity 0.3s linear 0s;
+  width: 97%;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -khtml-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+}
+.thumbs a:hover span{
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+  filter: alpha(opacity=1);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+
+#container {
+  padding: 0;
+}
+.isotope-item {
+  z-index: 0;
+}
+
 /* ===== scorpio hacks ===== */
 .scorpio-home {
   margin-top: 30px;
@@ -1221,10 +1372,4 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
   .scorpio-home {
     margin-top: 0;
   }
-}
-
-
-.thumbs {
-  width: 120px;
-  height: 120px;
 }

@@ -12,10 +12,11 @@ head
   meta(name='viewport', content='width=device-width, initial-scale=1, minimum-scale=1')
   //- end: Mobile Specific
   //- start: CSS
-  //- link( rel='stylesheet'
+  link( rel='stylesheet'
       , href='/css/all-'+(assetManager.cacheHashes.css || '0')+'.css' )
   link(rel='stylesheet', href='css/bootstrap.css')
   link(rel='stylesheet', href='css/bootstrap-responsive.css')
+  link(rel='stylesheet', href='css/colorbox.css')
   link(rel='stylesheet', href='css/style.css')
   //- end: CSS
   //- start: style switcher
@@ -47,10 +48,9 @@ head
       script( src='js/lib/modernizr.js')
       script( src='js/custom.js' )
       script( src='js/app.js' )
-      //- script(src='http://maps.google.com/maps/api/js?sensor=false&language=en')
-      //- script(src='js/lib/gmap3.min.js')
       script(src='js/lib/responsiveslides.min.js')
       script(src='js/lib/isotope.js')
+      script(src='js/lib/jquery.colorbox.js')
       script(src='js/lib/knob.js')
       script(src='js/lib/jquery.cookie.js')
 

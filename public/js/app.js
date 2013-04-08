@@ -44,6 +44,12 @@ var app = angular.module('myApp', [])
         $('#dummy').html($compile(data)($scope));
       });
     });
+
+
+    $scope.preventDefault = function ($event) {
+      console.log($event);
+      $event.preventDefault();
+    };
   })
   .controller('MainCtrl', function ($scope, $rootScope) {
 
