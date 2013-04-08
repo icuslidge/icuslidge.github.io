@@ -140,9 +140,26 @@ if (app.get('env') === 'development') {
   });
 }
 
+
+// Stuff
+var maps = app.locals.maps = require('./maps.js');
+
 // Routes
 app.get('/', function (req, res) {
   res.render('index');
+});
+app.get('/dummy', function (req, res) {
+  res.render('dummy');
+});
+app.get('/map/:name', function (req, res, next) {
+  var map = maps[req.params.name];
+  if (!map) {
+    res.send(404);
+  } else {
+    res.render('partials/map', {
+      map: map
+    });
+  }
 });
 app.get('/partials/:name', function (req, res) {
   res.render('partials/' + req.params.name);

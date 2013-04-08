@@ -17,6 +17,10 @@ var app = angular.module('myApp', [])
       .when('/portfolio', {
         templateUrl: 'partials/portfolio'
       })
+      .when('/portfolio/:name', {
+        templateUrl: 'dummy'
+      , controller: 'MapCtrl'
+      })
       .when('/gallery', {
         templateUrl: 'partials/gallery'
       // , controller: WorkCtrl
@@ -32,6 +36,15 @@ var app = angular.module('myApp', [])
       });
     $locationProvider.html5Mode(true);
   }])
+  .controller('MapCtrl', function ($scope, $route, $routeParams, $compile) {
+    $route.current.templateUrl = 'map/' + $routeParams.name;
+
+    $.get($route.current.templateUrl, function (data) {
+      $scope.$apply(function () {
+        $('#dummy').html($compile(data)($scope));
+      });
+    });
+  })
   .controller('MainCtrl', function ($scope, $rootScope) {
 
     // $rootScope.loading = false;

@@ -12,20 +12,20 @@
           //-   a(href='#')
           //-     img(src='img/slider/banner2.jpg', alt='content')
           li
-            a(href='#')
-              img(src='img/slider/cp_ashville_b6_1.jpg', alt='content')
+            a(href='portfolio/cp_ashville')
+              img(src='img/slider/cp_ashville_b6_1.jpg', alt='cp_ashville_b6')
           li
-            a(href='#')
-              img(src='img/slider/cp_frost_b6_6.jpg', alt='content')
+            a(href='portfolio/cp_frost')
+              img(src='img/slider/cp_frost_b6_6.jpg', alt='cp_frost_b6')
           li
-            a(href='#')
-              img(src='img/slider/cp_metalworks_rc2_3.jpg', alt='content')
+            a(href='portfolio/cp_metalworks')
+              img(src='img/slider/cp_metalworks_rc2_3.jpg', alt='cp_metalworks_rc2')
           li
-            a(href='#')
-              img(src='img/slider/cp_process_b10_1.jpg', alt='content')
+            a(href='portfolio/cp_process')
+              img(src='img/slider/cp_process_b10_1.jpg', alt='cp_process_b10')
           li
-            a(href='#')
-              img(src='img/slider/cp_standin_rc1_1.jpg', alt='content')
+            a(href='cp_standin')
+              img(src='img/slider/cp_standin_rc1_1.jpg', alt='cp_standin_rc1')
   .span9.offset1.content-contact.scorpio-home
     .row
       .span3
@@ -37,7 +37,7 @@
             | My name is Ian Cuslidge, otherwise known as&#32;
             a(href='http://steamcommunity.com/id/scorpiouprising') Scorpio Uprising.
             |  I'm an amateur level designer who has worked extensively with
-            | Source SDK and the Hammer level editior. I'm primarily well known
+            | Source SDK and the Hammer level editor. I'm primarily well known
             | for my work on maps for Competitive Team Fortress 2 (6v6 and
             | Highlander), and on being the head of the&#32;
             a(href='http://steamcommunity.com/groups/newmapweekends') New Map Weekends Pug Group
@@ -84,8 +84,7 @@
           strong Hammer Level Editor
           p.
             I’ve spent the past four years using Valve’s hammer editor to design
-            levels for Team Fortress 2. The attached link has a file with
-            screenshots, map files, descriptions and links to videos of gameplay.
+            levels for Team Fortress 2.
             I’m currently proficient with generating rough but playable alphas,
             moving a team fortress map from undetailed alpha to detailed beta,
             and finalizing the map through playtest and iteration. This includes
@@ -103,7 +102,7 @@
             the ability to engage with those arguments and see the problems or
             strengths of a given line of reasoning. Further, much of philosophy
             is boiling down or simplifying a rather larger concept, ensuring
-            that it can be dealt with in a reasonable time frame. This could
+            that it can be dealt with in a reasonable timeframe. This could
             prove useful for getting a rather large game design idea into a
             concise description.
           br
@@ -163,17 +162,16 @@
 
 script
   /* -------------------- Slideshow --------------------- */
-
-        $("#slider4").responsiveSlides({
-          auto: false,
-          pager: false,
-          nav: true,
-          speed: 500,
-          namespace: "callbacks",
-          before: function () {
-            $('.events').append("<li>before event fired.</li>");
-          },
-          after: function () {
-            $('.events').append("<li>after event fired.</li>");
-          }
-        });
+    $("#slider4").responsiveSlides({
+      auto: false,
+      pager: false,
+      nav: true,
+      speed: 500,
+      namespace: "callbacks",
+      before: function () {
+        $('.events').append("<li>before event fired.</li>");
+      },
+      after: function () {
+        $('.events').append("<li>after event fired.</li>");
+      }
+    });

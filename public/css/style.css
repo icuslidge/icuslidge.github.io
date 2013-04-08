@@ -13,7 +13,7 @@
 @import url("isotope.css");                               /* Isotope portfolio*/
 @import url("canvas-menu.css");                           /* canvas-off Menu */
 @import url("animate.css");                               /* animate motion */
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400);
+/*@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400);*/
 
 /* ===== style switcher ===== */
 /*
@@ -68,14 +68,18 @@ body{
   font:16px/26px;
   /*color: #5d5d5d;background:url("../img/pattern/gray_jean.png") #FFF;*/
   color: #5d5d5d;
-  font-family: 'Source Sans Pro', sans-serif;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+  font-family: sans-serif;
 	}
 a{
-  text-decoration: none !important;
+  /*overridden*/
+  /*text-decoration: none !important;*/
   color: #4e4e4e;
 }
 a:hover{
-  text-decoration: none !important;
+  /*overridden*/
+  /*text-decoration: none !important;*/
+  text-decoration: none;
   color: #353535;
 }
 hr {
@@ -1152,9 +1156,14 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
   margin-top: 30px;
   margin-bottom: 40px;
 }
-
 .scorpio-margin-top {
   margin-top: 30px;
+}
+.scorpio-spacer {
+  margin-bottom: 45px;
+}
+.scorpio-indent {
+  text-indent: 2em;
 }
 
 .scorpio-about, .scorpio-contact {
@@ -1169,6 +1178,39 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
   margin-bottom: 40px;
 }
 
+.scorpio-map-description {
+  padding-bottom: 10px;
+}
+.scorpio-map-description-right .read-more {
+  /*move the "Read More..." link down a few pixels*/
+  margin-top: 5px;
+}
+.scorpio-map-description li {
+  margin-bottom: 3px;
+}
+.scorpio-map-description li:first-child {
+  /*in cell phone mode it applies a padding-left to each li element which
+    moves the entire ul over to the right. so fix it for the first child*/
+  padding-left: 0px;
+}
+
+.scorpio-map-description-right a:hover {
+  text-decoration: underline;
+}
+@media (min-width: 1200px) {
+  .scorpio-map-description-right { width: 610px; }
+}
+@media (max-width: 1199px) and (min-width: 980px) {
+  .scorpio-map-description-right { width: 500px; }
+}
+@media (max-width: 979px) and (min-width: 768px) {
+  .scorpio-map-description-right { width: 372px; }
+}
+.scorpio-map-description-left {
+  padding-right: 16px;
+}
+
+
 @media (max-width: 767px) {
   .scorpio-about, .scorpio-contact {
     padding-left: 0;
@@ -1179,4 +1221,10 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
   .scorpio-home {
     margin-top: 0;
   }
+}
+
+
+.thumbs {
+  width: 120px;
+  height: 120px;
 }

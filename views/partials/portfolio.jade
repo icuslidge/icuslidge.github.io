@@ -1,67 +1,34 @@
-.span9.offset1
-  //- start: blog
-  .blog.clearfix
-    .span9.img-polaroid.blog-img
-      a(href='post')
-        img(alt='content', src='img/maps/cp_process_b10_titlebanner.jpg')
-      .marker
-        i.icon-bookmark
-    .span9.blog-content
-      .span2.blog-title
-        a(href='post')
-          h4 cp_process
-        ul.icons
-          li
-            b Currently in rotation:
-          li
-            | ESEA, ETF2L, UGC, OZFL, AFL
-          li
-            a(href='https://dl.dropbox.com/u/3492731/process/cp_process_rc2.bsp')
-              i.icon-download
-              b Download
-      .span6.blog-info
-        a(href='post')
-          p.
-            cp_process is a five control point push map. A team wins by
-            capturing all five control points at once, which must be done
-            linearly by capturing the neutral middle and then taking the enemy
-            teams points. It features a bright sunny art style, drawing off
-            cp_gorge and the alpine environment set.
-      .span9.tag.clearfix
-  //- end: blog
-  //- start: blog
-  .blog.clearfix
-    .span9.img-polaroid.blog-img
-      a(href='post')
-        img(alt='content', src='img/maps/cp_standin_rc1_titlebanner.jpg')
-      .marker
-        i.icon-bookmark
-    .span9.blog-content
-      .span2.blog-title
-        a(href='post')
-          h4 cp_standin
-        ul.icons
-          li
-            b Played in:
-          li
-            | ESEA, UGC, OZFL, AFL
-          li
-            a(href='https://dl.dropbox.com/u/3492731/standin/cp_standin_rc1.bsp')
-              i.icon-download
-              b Download
-      .span6.blog-info
-        a(href='post')
-          p.
-            cp_standin is a three control point "domination" map. A team wins
-            a round by capturing all three points at once, while preventing the
-            enemy team from capturing points they have already secured. All
-            three points start neutral and are equidistant from both teams'
-            spawns, with multiple exits allowing players to approach them from
-            either side. The map is quite hectic, and involves a great deal of
-            tactical engagement and strategy in order to properly coordinate
-            players across the map.
-      .span9.tag.clearfix
-  //- end: blog
+.span9.offset1.scorpio-margin
+  each map in maps
+    .blog.clearfix
+      .span9.img-polaroid.blog-img
+        a(href='portfolio/' + map.name)
+          img(alt='content', src= map.banner)
+        .marker
+          i.icon-bookmark
+      .span9.blog-content.scorpio-map-description
+        .span2.blog-title
+          .scorpio-map-description-left
+            a(href='portfolio/' + map.name)
+              h4= map.name
+            ul.icons
+              if map.leaguesPlayedIn
+                li
+                  if map.isInRotation
+                    b Currently in rotation:
+                  else
+                    b Played in:
+                li= map.leaguesPlayedIn
+              li
+                a(href= map.downloadLink)
+                  i.icon-download
+                  b Download
+        .span6.scorpio-map-description-right
+          p= map.description[0]
+          a(href='portfolio/' + map.name)
+            h5.read-more Read More...
+        //- .span9.tag.clearfix
+.span9.offset1.scorpio-spacer
   //- start: blog
   //- .blog.clearfix
   //-   .span6.img-polaroid.blog-img
