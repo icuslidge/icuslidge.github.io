@@ -1330,6 +1330,29 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
   margin-bottom: 40px;
 }
 
+
+/*home carousel text overlay*/
+.project-slider {
+  position: relative;
+}
+.project-slider span {
+  z-index: 2;
+  position: absolute;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.scorpio-carousel-title {
+  top: 34px;
+  left: 40px;
+  font-size: 60px;
+}
+.scorpio-carousel-subtitle {
+  top: 88px;
+  left: 42px;
+  font-size: 36px;
+}
+
+
 .scorpio-map-description {
   padding-bottom: 10px;
 }

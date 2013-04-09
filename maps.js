@@ -143,6 +143,10 @@ var maps = {
   }
 , cp_ashville: { name: 'cp_ashville'
   , imageDirectory: 'cp_ashville_b6'
+  , videos: [
+      'http://www.youtube.com/embed/fXH0f1-Grf0#t=48s'
+    , 'http://www.youtube.com/embed/JoOD6zBTlxc'
+    ]
   , downloadLink: 'https://dl.dropbox.com/u/3492731/Ashville/cp_ashville_b6.bsp'
   , isInRotation: false
   , leaguesPlayedIn: ''
@@ -179,6 +183,9 @@ var maps = {
   }
 , ctf_haunt: { name: 'ctf_haunt'
   , imageDirectory: 'ctf_haunt_b1'
+  , videos: [
+      'http://www.youtube.com/embed/Hft61AcejGY'
+    ]
   , downloadLink: 'https://dl.dropbox.com/u/3492731/ctf_haunt/ctf_haunt_b2.bsp'
   , isInRotation: false
   , leaguesPlayedIn: ''
