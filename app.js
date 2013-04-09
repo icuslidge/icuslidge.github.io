@@ -80,10 +80,9 @@ var assetManager = require('connect-assetmanager')({
       'lib/modernizr.js'
     , 'custom.js'
     , 'app.js'
-    , 'lib/responsiveslides.min.js'
     , 'lib/isotope.js'
     , 'lib/jquery.colorbox.js'
-    , 'lib/knob.js'
+    // , 'lib/knob.js'
     , 'lib/jquery.cookie.js'
     // , '*'
     ]

@@ -52,30 +52,6 @@ var app = angular.module('myApp', [])
     };
   })
   .controller('MainCtrl', function ($scope, $rootScope) {
-
-    // $rootScope.loading = false;
-    // $scope.showSideBar = true;
-    // $rootScope.$on('$routeChangeError', function(event, curr, prev, rejection) {
-    //   if (!prev) {
-    //     $location.path('/');
-    //   } else {
-    //     window.history.back();
-    //   }
-    // });
-    // $rootScope.$on('$locationChangeStart', function() {
-    //   $rootScope.loading = true;
-    // });
-    // $rootScope.$on('$routeChangeSuccess', function() {
-    //   $rootScope.loading = false;
-    //   // TODO: FIXME
-    //   $scope.hideSideBar = !$route.current.$route ||
-    //                 ($route.current.$route.templateUrl === 'partials/player') ||
-    //                 ($route.current.$route.templateUrl === 'partials/profile');
-    // });
-    // $scope.isCurrentPath = function(path) {
-    //   return path === $location.path();
-    // };
-
     $rootScope.$on('$routeChangeSuccess', function () {
       $('.content')
         // Interrupt the fading animation if one is in progress
@@ -84,6 +60,10 @@ var app = angular.module('myApp', [])
         .css({opacity:0})
         .animate({opacity:1}, 800);
     });
+
+    $scope.carousel = function (direction) {
+      $(".carousel").carousel(direction);
+    };
   })
   .directive('isotope', function ($timeout) {
     return function (scope, elem, attrs) {

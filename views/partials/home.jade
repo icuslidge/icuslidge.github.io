@@ -6,7 +6,7 @@
 
   .span9.offset1.scorpio-margin-top
     .project-slider
-      .callbacks_container
+      //- .callbacks_container
         ul#slider4.rslides
           //- li
           //-   a(href='#')
@@ -26,6 +26,40 @@
           li
             a(href='cp_standin')
               img(src='img/slider/cp_standin_rc1_1.jpg', alt='cp_standin_rc1')
+      #myCarousel.carousel.slide
+        //- ol.carousel-indicators
+          li.active(data-target='#myCarousel', data-slide-to='0')
+          li(data-target='#myCarousel', data-slide-to='1')
+          li(data-target='#myCarousel', data-slide-to='2')
+        .carousel-inner
+          .item.active
+            img(src='img/slider/cp_ashville_b6_1.jpg', alt='cp_ashville_b6')
+            a(href='portfolio/cp_ashville')
+              .carousel-caption
+                h4 cp_ashville
+                //- p Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+          .item
+            img(src='img/slider/cp_frost_b6_6.jpg', alt='cp_frost_b6')
+            a(href='portfolio/cp_frost')
+              .carousel-caption
+                h4 cp_frost
+          .item
+            img(src='img/slider/cp_metalworks_rc2_3.jpg', alt='cp_metalworks_rc2')
+            a(href='portfolio/cp_metalworks')
+              .carousel-caption
+                h4 cp_metalworks
+          .item
+            img(src='img/slider/cp_process_b10_1.jpg', alt='cp_process_b10')
+            a(href='portfolio/cp_process')
+              .carousel-caption
+                h4 cp_process
+          .item
+            img(src='img/slider/cp_standin_rc1_1.jpg', alt='cp_standin_rc1')
+            a(href='portfolio/cp_standin')
+              .carousel-caption
+                h4 cp_standin
+        a.carousel-control.left(href='', ng-click='carousel("prev")') &lsaquo;
+        a.carousel-control.right(href='', ng-click='carousel("next")') &rsaquo;
       span.scorpio-carousel-title Ian&nbsp;Cuslidge
       span.scorpio-carousel-subtitle Level&nbsp;Designer
   .span9.offset1.content-contact.scorpio-home
@@ -164,16 +198,19 @@
 
 script
   /* -------------------- Slideshow --------------------- */
-    $("#slider4").responsiveSlides({
-      auto: false,
-      pager: false,
-      nav: true,
-      speed: 500,
-      namespace: "callbacks",
-      before: function () {
-        $('.events').append("<li>before event fired.</li>");
-      },
-      after: function () {
-        $('.events').append("<li>after event fired.</li>");
-      }
-    });
+  /*
+  $("#slider4").responsiveSlides({
+    auto: false,
+    pager: false,
+    nav: true,
+    speed: 500,
+    namespace: "callbacks",
+    before: function () {
+      $('.events').append("<li>before event fired.</li>");
+    },
+    after: function () {
+      $('.events').append("<li>after event fired.</li>");
+    }
+  });
+  */
+  $('.carousel').carousel();
