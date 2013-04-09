@@ -1,0 +1,127 @@
+/* -------------------- body --------------------- */
+
+h1,h2,h3,h4,h5,h6 {
+    color: #FF6666;
+}
+
+a:hover {
+    color: #FF6666;
+}
+
+/* -------------------- logo --------------------- */
+
+.sidebar-style .logo i {
+    color: #FF6666;
+}
+
+/* -------------------- btn --------------------- */
+
+.btn-red-pastel {
+	color: #FFFFFF;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #FF4444;
+	*background-color: #FF4444;
+	background-image: -moz-linear-gradient(top, #FF6666, #FF4444);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FF6666), to(#FF4444));
+	background-image: -webkit-linear-gradient(top, #FF6666, #FF4444);
+	background-image: -o-linear-gradient(top, #FF6666, #FF4444);
+	background-image: linear-gradient(to bottom, #FF6666, #FF4444);
+	background-repeat: repeat-x;
+	border-color: #FF4444;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF6666', endColorstr='#FF4444', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-red-pastel:hover,
+.btn-red-pastel:active,
+.btn-red-pastel.active,
+.btn-red-pastel.disabled,
+.btn-red-pastel[disabled] {
+	color: #FFFFFF;
+	background-color: #FF4444;
+	*background-color: #003bb3;
+}
+
+/* -------------------- home --------------------- */
+
+.home-features .icon {
+    color: #FF6666;
+}
+
+/* -------------------- Post --------------------- */
+
+.sidebar-right .sidebar-tag {
+	background: none repeat scroll 0 0 #FF6666;
+}
+.sidebar-right .sidebar-tag:hover {
+    background: none repeat scroll 0 0 #FF4444;
+}
+
+/* -------------------- blog --------------------- */
+
+.blog .marker {
+    color: #FF6666;
+}
+
+/* -------------------- project --------------------- */
+
+.icon-muted {
+    color: #FF6666;
+}
+.icon-border {
+	border-color: #FF6666;
+}
+
+/* -------------------- about --------------------- */
+
+.knob input {
+	color: #FF6666;
+}
+
+/* -------------------- work --------------------- */
+
+.tag-css a {
+    background: none repeat scroll 0 0 #4E4E4E;
+    color: #FFFFFF;
+}
+.tag-css a:before {
+    border-color: transparent #4E4E4E transparent transparent;
+}
+.tag-css a:after {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.tag-css a:hover {
+    background: none repeat scroll 0 0 #FF6666;
+    color: #FFF;
+}
+.tag-css a:hover:before {
+    border-color: transparent #FF6666 transparent transparent;
+    color: #FFF;
+}
+.tag-css a:active {
+    background: none repeat scroll 0 0 #FF4444;
+    color: #FFF;
+}
+.tag-css a:active:before {
+    border-color: transparent #FF4444 transparent transparent;
+    color: #FFF;
+}
+
+/* -------------------- contact --------------------- */
+
+.content-contact .title i{
+	color: #FF6666;
+}
+
+.input-append .add-on, .input-prepend .add-on {
+  background-color: #FF6666;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+    border-color: rgba(255, 102, 102, 0.6);
+    -webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 102, 102, 0.6);
+       -moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 102, 102, 0.6);
+            box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 102, 102, 0.6);
+    outline: 0 none;
+}
+

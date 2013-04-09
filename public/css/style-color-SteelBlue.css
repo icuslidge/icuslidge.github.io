@@ -1,0 +1,125 @@
+/* -------------------- body --------------------- */
+
+h1,h2,h3,h4,h5,h6 {
+    color: #4682B4;
+}
+
+a:hover {
+    color: #4682B4;
+}
+
+/* -------------------- logo --------------------- */
+
+.sidebar-style .logo i {
+    color: #4682B4;
+}
+
+/* -------------------- btn --------------------- */
+
+.btn-steelblue {
+	color: #FFFFFF;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #3C709C;
+	*background-color: #3C709C;
+	background-image: -moz-linear-gradient(top, #4682B4, #3C709C);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4682B4), to(#3C709C));
+	background-image: -webkit-linear-gradient(top, #4682B4, #3C709C);
+	background-image: -o-linear-gradient(top, #4682B4, #3C709C);
+	background-image: linear-gradient(to bottom, #4682B4, #3C709C);
+	background-repeat: repeat-x;
+	border-color: #3C709C;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4682B4', endColorstr='#3C709C', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-steelblue:hover,
+.btn-steelblue:active,
+.btn-steelblue.active,
+.btn-steelblue.disabled,
+.btn-steelblue[disabled] {
+	color: #FFFFFF;
+	background-color: #3C709C;
+	*background-color: #003bb3;
+}
+
+.home-features .icon {
+    color: #4682B4;
+}
+
+
+/* -------------------- blog --------------------- */
+
+.blog .marker {
+    color: #4682B4;
+}
+
+/* -------------------- project --------------------- */
+
+.icon-muted {
+    color: #4682B4;
+}
+.icon-border {
+	border-color: #4682B4;
+}
+
+/* -------------------- about --------------------- */
+
+.knob input {
+	color: #4682B4;
+}
+
+/* -------------------- work --------------------- */
+
+.tag-css a {
+    background: none repeat scroll 0 0 #4E4E4E;
+    color: #FFFFFF;
+}
+.tag-css a:before {
+    border-color: transparent #4E4E4E transparent transparent;
+}
+.tag-css a:after {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.tag-css a:hover {
+    background: none repeat scroll 0 0 #4682B4;
+    color: #FFF;
+}
+.tag-css a:hover:before {
+    border-color: transparent #4682B4 transparent transparent;
+    color: #FFF;
+}
+.tag-css a:active {
+    background: none repeat scroll 0 0 #3c709c;
+    color: #FFF;
+}
+.tag-css a:active:before {
+    border-color: transparent #3c709c transparent transparent;
+    color: #FFF;
+}
+
+/* -------------------- contact --------------------- */
+
+.content-contact .title i{
+	color: #4682B4;
+}
+
+.input-append .add-on, .input-prepend .add-on {
+  background-color: #4682B4;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+    border-color: rgba(70, 130, 180, 0.6);
+    -webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(70, 130, 180, 0.6);
+       -moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(70, 130, 180, 0.6);
+            box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(70, 130, 180, 0.6);
+    outline: 0 none;
+}
+
+/* -------------------- Post --------------------- */
+
+.sidebar-right .sidebar-tag {
+    background: none repeat scroll 0 0 #4682B4;
+}
+.sidebar-right .sidebar-tag:hover {
+    background: none repeat scroll 0 0 #3c709c;
+}

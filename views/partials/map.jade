@@ -20,6 +20,9 @@
                   img.img-polaroid(alt='content', src='img/medium/2.jpg')
                   span
                     i.icon-link
+          if map.videos
+            each video in map.videos
+              iframe.youtube(src= video, frameborder="0", allowfullscreen)
       .span4.scorpio-map-full-description
         h1= map.name
         each paragraph in map.description

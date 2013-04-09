@@ -1,6 +1,11 @@
 var maps = {
-cp_process: { name: 'cp_process'
+  cp_process: { name: 'cp_process'
   , imageDirectory: 'cp_process_b10'
+  , videos: [
+      'http://www.youtube.com/embed/SuW4Pto3RhY#t=6m33s'
+    , 'http://www.youtube.com/embed/zBVi0BYB21A#t=11s'
+    , 'http://www.youtube.com/embed/4tpotTcEeH0#t=2s'
+    ]
   , downloadLink: 'https://dl.dropbox.com/u/3492731/process/cp_process_rc2.bsp'
   , isInRotation: true
   , leaguesPlayedIn: 'ESEA, ETF2L, UGC, OZFL, AFL'
@@ -36,6 +41,11 @@ cp_process: { name: 'cp_process'
   }
 , cp_standin: { name: 'cp_standin'
   , imageDirectory: 'cp_standin_rc1'
+  , videos: [
+      'http://www.youtube.com/embed/gElC-xIlDoo#t=11m22s'
+    , 'http://www.youtube.com/embed/tsl4hwNwCb4'
+    , 'http://www.youtube.com/embed/rzhGLS6QmS8'
+    ]
   , downloadLink: 'https://dl.dropbox.com/u/3492731/standin/cp_standin_rc1.bsp'
   , isInRotation: false
   , leaguesPlayedIn: 'ESEA, UGC, OZFL, AFL'
@@ -96,6 +106,10 @@ cp_process: { name: 'cp_process'
   }
 , cp_metalworks: { name: 'cp_metalworks'
   , imageDirectory: 'cp_metalworks_rc2'
+  , videos: [
+      'http://www.youtube.com/embed/_B_EOVMfT5g#t=8s'
+    , 'http://www.youtube.com/embed/M2Ylmd0BREk'
+    ]
   , downloadLink: 'https://dl.dropbox.com/u/3492731/revenant/cp_metalworks_rc3.bsp'
   , isInRotation: false
   , leaguesPlayedIn: ''
