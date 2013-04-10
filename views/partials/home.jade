@@ -6,26 +6,6 @@
 
   .span9.offset1.scorpio-margin-top
     .project-slider
-      //- .callbacks_container
-        ul#slider4.rslides
-          //- li
-          //-   a(href='#')
-          //-     img(src='img/slider/banner2.jpg', alt='content')
-          li
-            a(href='portfolio/cp_ashville')
-              img(src='img/slider/cp_ashville_b6_1.jpg', alt='cp_ashville_b6')
-          li
-            a(href='portfolio/cp_frost')
-              img(src='img/slider/cp_frost_b6_6.jpg', alt='cp_frost_b6')
-          li
-            a(href='portfolio/cp_metalworks')
-              img(src='img/slider/cp_metalworks_rc2_3.jpg', alt='cp_metalworks_rc2')
-          li
-            a(href='portfolio/cp_process')
-              img(src='img/slider/cp_process_b10_1.jpg', alt='cp_process_b10')
-          li
-            a(href='cp_standin')
-              img(src='img/slider/cp_standin_rc1_1.jpg', alt='cp_standin_rc1')
       #myCarousel.carousel.slide
         //- ol.carousel-indicators
           li.active(data-target='#myCarousel', data-slide-to='0')
@@ -44,6 +24,11 @@
               .carousel-caption
                 h4 cp_frost
           .item
+            img(src='img/map/ctf_haunt_b1/ctf_haunt_b1_6.jpg', alt='ctf_haunt_b1')
+            a(href='portfolio/ctf_haunt')
+              .carousel-caption
+                h4 ctf_haunt
+          .item
             img(src='img/slider/cp_metalworks_rc2_3.jpg', alt='cp_metalworks_rc2')
             a(href='portfolio/cp_metalworks')
               .carousel-caption
@@ -58,6 +43,11 @@
             a(href='portfolio/cp_standin')
               .carousel-caption
                 h4 cp_standin
+          .item
+            img(src='img/slider/work_in_progress.jpg', alt='Work in progress')
+            a(ng-href='')
+              .carousel-caption
+                h4 Work in progress
         a.carousel-control.left(href='', ng-click='carousel("prev")') &lsaquo;
         a.carousel-control.right(href='', ng-click='carousel("next")') &rsaquo;
       span.scorpio-carousel-title Ian&nbsp;Cuslidge

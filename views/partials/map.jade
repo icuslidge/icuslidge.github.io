@@ -7,7 +7,7 @@
       .span4
         if map.imageDirectory
           #container.clearfix.isotope(isotope)
-            - for (var i=1; i<=(map.numOfImages || 6); ++i) {
+            - for (var i=1; i<=(map.numOfImages || 15); ++i) {
             - var image = 'img/map/' + map.imageDirectory + '/' + map.imageDirectory + '_' + i + '.jpg'
               .element
                 .thumbs
@@ -22,7 +22,8 @@
                     i.icon-link
           if map.videos
             each video in map.videos
-              iframe.youtube(src= video, frameborder="0", allowfullscreen)
+              .youtube
+                iframe(src= video, frameborder="0", allowfullscreen)
       .span4.scorpio-map-full-description
         h1= map.name
         each paragraph in map.description

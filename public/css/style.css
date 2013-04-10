@@ -1338,7 +1338,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
   text-decoration: underline;
 }
 
-/*home carousel text overlay*/
+/* Home carousel text overlay */
 .project-slider {
   position: relative;
 }
@@ -1357,6 +1357,22 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
   top: 88px;
   left: 42px;
   font-size: 36px;
+}
+
+/* Elastic Youtube */
+.youtube {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  margin-bottom: 6px;
+}
+.youtube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -1381,15 +1397,17 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 }
 @media (min-width: 1200px) {
   .scorpio-map-description-right { width: 610px; }
-  .youtube {width: 366px; height: 206px;}
 }
 @media (max-width: 1199px) and (min-width: 980px) {
   .scorpio-map-description-right { width: 500px; }
-  .youtube {width: 298px; height: 168px;}
 }
 @media (max-width: 979px) and (min-width: 768px) {
   .scorpio-map-description-right { width: 372px; }
-  .youtube {width: 226px; height: 127px;}
+  .thumbs {
+    width: 112px;
+    height: 63px;
+    margin: 4px 0 0;
+  }
 }
 .scorpio-map-description-left {
   padding-right: 16px;
@@ -1406,5 +1424,6 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
   .scorpio-home {
     margin-top: 0;
   }
-  .youtube {width: 350px; height: 197px;}
 }
+
+

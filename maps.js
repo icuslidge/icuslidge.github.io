@@ -2,7 +2,7 @@ var maps = {
   cp_process: { name: 'cp_process'
   , imageDirectory: 'cp_process_b10'
   , videos: [
-      'http://www.youtube.com/embed/SuW4Pto3RhY#t=6m33s'
+      'https://www.youtube.com/embed/q0t5zkrIiPc'
     , 'http://www.youtube.com/embed/zBVi0BYB21A#t=11s'
     , 'http://www.youtube.com/embed/4tpotTcEeH0#t=2s'
     ]
@@ -34,9 +34,10 @@ var maps = {
         + 'team.'
 
     , 'Process has been quite well received by many competitive players, and is highly likely to '
-        + 'be a staple for seasons to come. It has been played in ESEA, starting in Season 11, '
-        + 'OZfortress League, and in numerous Highlander pick up games, as well as in UGC season '
-        + '9. It also won second place in the Asymmetry/Symmetry contest from TF2maps.net.'
+        + 'be a staple for seasons to come. It has been played in ESEA, starting in Season 11,  '
+        + 'ETF2L starting with season 13, OZfortress League, and in numerous Highlander pick up games, '
+        + 'as well as in UGC season 9. It also won second place in the Asymmetry/Symmetry contest '
+  + 'from TF2maps.net.'
     ]
   }
 , cp_standin: { name: 'cp_standin'
@@ -111,8 +112,8 @@ var maps = {
     , 'http://www.youtube.com/embed/M2Ylmd0BREk'
     ]
   , downloadLink: 'https://dl.dropbox.com/u/3492731/revenant/cp_metalworks_rc3.bsp'
-  , isInRotation: false
-  , leaguesPlayedIn: ''
+  , isInRotation: true
+  , leaguesPlayedIn: 'ESEA'
   , description: [
       'cp_metalworks is a five control point push map. It is a remake of my first map, '
         + 'cp_resonance, which was incredibly useful for learning the basics of hammer (namely, '
@@ -172,23 +173,25 @@ var maps = {
         + 'structures from cp_metalworks (as well as the bright orange windows), and the spytech '
         + 'themes from cp_process.'
 
-    , 'cp_ashville_b6 has been voted into ESEA for Season 12. I\'m fairly confident in its chances '
-        + 'to stay in for another season, but I\'m aware that it needs some work in certain areas. '
-        + 'I\'m fairly confident in the middle point (thanks koth_ashville!), and the transition '
-        + 'between second and middle also seems strong. However, the last point is the one part of '
-        + 'the map that I\'m not to sure about. In trying to get some things from badlands, I may '
-        + 'have not quite implemented the ideas well enough. The sightlines in particular are '
-        + 'worrying, and attackers don\'t seem to have as many options as I would like.'
+    , 'cp_ashville_b6 was played in ESEA for Season 12. It was not well received by the majority of '
+  + 'players. Most criticisms were directed at the second and last points, where the distance '
+  + 'between the points led to some long drawn out games, and stalemates. I have been considering '
+  + 'possible changes to the layout, including decreasing the size of the second point and its '
+  + 'surroundings, as well as adjustments to last. However, it seems unlikely that the map would '
+  + 'see play again in its current form, so I\'m considering turning it (back?) into a king of the '
+  + 'hill map by getting rid of the last point and changing the location of spawn.'
     ]
   }
 , ctf_haunt: { name: 'ctf_haunt'
   , imageDirectory: 'ctf_haunt_b1'
   , videos: [
       'http://www.youtube.com/embed/Hft61AcejGY'
+    , 'http://www.youtube.com/embed/jMx8XCzLtNw'
+    , 'http://www.youtube.com/embed/wcRcNZAYgao'
     ]
   , downloadLink: 'https://dl.dropbox.com/u/3492731/ctf_haunt/ctf_haunt_b2.bsp'
-  , isInRotation: false
-  , leaguesPlayedIn: ''
+  , isInRotation: true
+  , leaguesPlayedIn: 'UGC'
   , description: [
       'ctf_haunt is a remake of ctf_vitalism which was going to be my entry in the TF2Maps.net '
         + 'competitive capture the flag contest. About halfway through the contest, I got somewhat '
@@ -228,11 +231,12 @@ var maps = {
         + 'dividing up the map for rendering. I\'m also interested in adjusting the respawn times, '
         + 'in order to help alleviate turtling.'
 
-    , 'Vitalism was played in season 7 of UGC highlander, and haunt will be played in season 9.'
+    , 'Vitalism was played in season 7 of UGC highlander, and haunt was played in season 9.'
     ]
   }
 , cp_frost: { name: 'cp_frost'
   , imageDirectory: 'cp_frost_b6'
+  , numOfImages: 12
   , downloadLink: 'https://dl.dropbox.com/u/3492731/cp_frost_b6.bsp'
   , isInRotation: false
   , leaguesPlayedIn: ''
@@ -268,6 +272,7 @@ var maps = {
   }
 , cp_extraction: { name: 'cp_extraction'
   , imageDirectory: 'cp_extraction_rc2'
+  , numOfImages: 6
   , downloadLink: 'https://dl.dropbox.com/u/3492731/cp_extraction_rc2.bsp'
   , isInRotation: false
   , leaguesPlayedIn: ''
@@ -292,7 +297,7 @@ var maps = {
   }
 , cp_warmachine: { name: 'cp_warmachine'
   , imageDirectory: 'cp_warmachine_rc4'
-  , numOfImages: 4
+  , numOfImages: 9
   , downloadLink: 'https://dl.dropbox.com/u/3492731/cp_warmachine_rc4.bsp'
   , isInRotation: false
   , leaguesPlayedIn: ''
