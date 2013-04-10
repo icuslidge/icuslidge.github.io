@@ -272,7 +272,6 @@ var maps = {
   }
 , cp_extraction: { name: 'cp_extraction'
   , imageDirectory: 'cp_extraction_rc2'
-  , numOfImages: 6
   , downloadLink: 'https://dl.dropbox.com/u/3492731/cp_extraction_rc2.bsp'
   , isInRotation: false
   , leaguesPlayedIn: ''
