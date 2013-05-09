@@ -26,6 +26,10 @@
                 iframe(src= video, frameborder="0", allowfullscreen)
       .span4.scorpio-map-full-description
         h1= map.name
+        h4
+          a(href= map.downloadLink)
+            i.icon-download
+            b Download
         each paragraph in map.description
           br
           p= paragraph
