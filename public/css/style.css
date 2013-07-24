@@ -7,59 +7,7 @@
 
 /* ==== #Import Section ==== */
 /*@import url("jquery.gritter.css");*/                        /* Growl Like Notifications Styles */
-@import url("font-awesome.css");                          /* Font Awesome Styles */
-@import url("font-awesome-ie7.min.css");                  /* Font Awesome Styles */
-@import url("responsiveslides.css");                      /* Slider  */
-@import url("isotope.css");                               /* Isotope portfolio*/
-@import url("canvas-menu.css");                           /* canvas-off Menu */
-@import url("animate.css");                               /* animate motion */
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400);
 
-/* ===== style switcher ===== */
-/*
-.switcher {
-    border-radius: 2px 2px 2px 2px;
-    bottom: 14px;
-    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-    height: 44px;
-    overflow: hidden;
-    position: fixed;
-    right: -8px;
-    width: 50px;
-    z-index: 40;
-    background: #FFF;
-    -webkit-transition:all 0.2s ease-in-out 0s;
-       -moz-transition:all 0.2s ease-in-out 0s;
-         -o-transition:all 0.2s ease-in-out 0s;
-            transition:all 0.2s ease-in-out 0s;
-}
-.switcher .cogs{display: block;float: left;width: 35px;padding: 7px;}
-.switcher:hover{right: -8px;width: 260px;}
-ul#cssSwitch {padding-top: 4px;height: 15px;}
-ul#cssSwitch li {float:left; margin-right: 4px; width:16px; height:16px; }
-ul#cssSwitch .color {width:50px;font-weight: bold;padding-left: 40px; }
-ul#cssSwitch .background {width:90px ;font-weight: bold; }
-ul#cssSwitch li a {border:1px solid #4E4E4E; cursor:pointer; display:block; position: relative; width:16px; height:16px;}
-ul#cssSwitch li a.gray-jean {background:url("../img/pattern/gray_jean.png"); }
-ul#cssSwitch li a.gray-jean:hover { background:url("../img/pattern/gray_jean.png"); border:1px solid #d8d8d8;}
-ul#cssSwitch li a.maze-white { background:url("../img/pattern/maze_white.png"); }
-ul#cssSwitch li a.maze-white:hover { background:url("../img/pattern/maze_white.png"); border:1px solid #d8d8d8;  }
-ul#cssSwitch li a.kinda-jean { background:url("../img/pattern/kindajean.png"); }
-ul#cssSwitch li a.kinda-jean:hover { background:url("../img/pattern/kindajean.png"); border:1px solid #d8d8d8;  }
-ul#cssSwitch li a.white-wall { background:url("../img/pattern/white_wall.png"); }
-ul#cssSwitch li a.white-wall:hover { background:url("../img/pattern/white_wall.png"); border:1px solid #d8d8d8;  }
-ul#cssSwitch li a.white { background:#FFF; }
-ul#cssSwitch li a.white:hover { background:#FFF; border:1px solid #d8d8d8;  }
-ul#cssSwitch li a.default { background:#4e4e4e; }
-ul#cssSwitch li a.default:hover { background:#4e4e4e; border:1px solid #d8d8d8;  }
-ul#cssSwitch li a.orange { background:#fdb826; }
-ul#cssSwitch li a.orange:hover { background:#fdb826; border:1px solid #d8d8d8;  }
-ul#cssSwitch li a.steelblue { background:steelblue; }
-ul#cssSwitch li a.steelblue:hover { background:steelblue; border:1px solid #d8d8d8;  }
-ul#cssSwitch li a.red { background:#FF6666; }
-ul#cssSwitch li a.red:hover { background:#FF6666; border:1px solid #d8d8d8;  }
-*/
 
 /* ===== Body and structure ===== */
 
