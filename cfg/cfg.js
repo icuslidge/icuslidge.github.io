@@ -1,6 +1,6 @@
 var cfg = {
   address: process.env.ADDRESS
-, port: parseInt(process.env.PORT, 10) || 8013
+, port: parseInt(process.env.PORT, 10) || 8104
 };
 
 if (!cfg.address) {
