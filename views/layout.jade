@@ -1,48 +1,48 @@
 !!! 5
 html(lang='en', ng-app='myApp')
-head
-  //- start: Meta
-  meta(charset='utf-8')
-  base(href='/')
-  title Ian Cuslidge
-  meta(content='Ian Cuslidge\'s resume & portfolio', name='description')
-  meta(content='Ian Cuslidge, level design, resume, portfolio', name='keywords')
-  //- end: Meta
-  //- start: Mobile Specific
-  meta(name='viewport', content='width=device-width, initial-scale=1, minimum-scale=1')
-  //- end: Mobile Specific
-  //- start: CSS
-  //- link( rel='stylesheet'
-      , href='/css/all-'+(assetManager.cacheHashes.css || '0')+'.css' )
-  link(rel='stylesheet', href='css/bootstrap.css')
-  link(rel='stylesheet', href='css/bootstrap-responsive.css')
-  //- link(rel='stylesheet', href='css/colorbox.css')
+  head
+    //- start: Meta
+    meta(charset='utf-8')
+    base(href='/')
+    title Ian Cuslidge
+    meta(content='Ian Cuslidge\'s resume & portfolio', name='description')
+    meta(content='Ian Cuslidge, level design, resume, portfolio', name='keywords')
+    //- end: Meta
+    //- start: Mobile Specific
+    meta(name='viewport', content='width=device-width, initial-scale=1, minimum-scale=1')
+    //- end: Mobile Specific
+    //- start: CSS
+    //- link( rel='stylesheet'
+        , href='/css/all-'+(assetManager.cacheHashes.css || '0')+'.css' )
+    link(rel='stylesheet', href='css/bootstrap.css')
+    link(rel='stylesheet', href='css/bootstrap-responsive.css')
+    //- link(rel='stylesheet', href='css/colorbox.css')
 
-  link(rel='stylesheet', href='css/font-awesome.css')
-  link(rel='stylesheet', href='css/font-awesome-ie7.min.css')
-  link(rel='stylesheet', href='css/responsiveslides.css')
-  link(rel='stylesheet', href='css/isotope.css')
-  link(rel='stylesheet', href='css/canvas-menu.css')
-  link(rel='stylesheet', href='css/animate.css')
-  link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400')
-  link(rel='stylesheet', href='css/style.css')
-  //- end: CSS
-  //- start: style switcher
-  link.switchable(rel='stylesheet', href='css/style-bgd-maze-white.css')
-  //- link.switchable(rel='stylesheet', href='css/style-color-orange.css')
-  //- link.switchable(rel='stylesheet', href='css/style-color-SteelBlue.css')
-  link.switchable(rel='stylesheet', href='css/style-color-SteelBlue.css')
-  //- end: style switcher
-  noscript
-    link(rel='stylesheet', type='text/css', href='css/nojs.css')
-  //- start: favicon
-  link(href='//s3.amazonaws.com/wrapbootstrap/live/imgs/favicon.ico', rel='shortcut icon')
-  //- end: favicon
-  //if IE 9
-    style.
-  //if IE 8
-    style.
-      .nav-btn{display:none}.close-btn{display:none}.home-marker {top: 74px;}
+    link(rel='stylesheet', href='css/font-awesome.css')
+    link(rel='stylesheet', href='css/font-awesome-ie7.min.css')
+    link(rel='stylesheet', href='css/responsiveslides.css')
+    link(rel='stylesheet', href='css/isotope.css')
+    link(rel='stylesheet', href='css/canvas-menu.css')
+    link(rel='stylesheet', href='css/animate.css')
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400')
+    link(rel='stylesheet', href='css/style.css')
+    //- end: CSS
+    //- start: style switcher
+    link.switchable(rel='stylesheet', href='css/style-bgd-maze-white.css')
+    //- link.switchable(rel='stylesheet', href='css/style-color-orange.css')
+    //- link.switchable(rel='stylesheet', href='css/style-color-SteelBlue.css')
+    link.switchable(rel='stylesheet', href='css/style-color-SteelBlue.css')
+    //- end: style switcher
+    noscript
+      link(rel='stylesheet', type='text/css', href='css/nojs.css')
+    //- start: favicon
+    link(href='//s3.amazonaws.com/wrapbootstrap/live/imgs/favicon.ico', rel='shortcut icon')
+    //- end: favicon
+    //if IE 9
+      style.
+    //if IE 8
+      style.
+        .nav-btn{display:none}.close-btn{display:none}.home-marker {top: 74px;}
   body(ng-controller='MainCtrl')
     block body
     //- start: script
