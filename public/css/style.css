@@ -1323,6 +1323,9 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
   height: 100%;
 }
 
+.scorpio-quote {
+  margin: 0 18px 10px;
+}
 
 .scorpio-map-description {
   padding-bottom: 10px;
