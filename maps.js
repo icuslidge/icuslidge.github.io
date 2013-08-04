@@ -7,6 +7,7 @@ var maps = {
     , 'http://www.youtube.com/embed/4tpotTcEeH0#t=2s'
     ]
   , downloadLink: 'https://dl.dropboxusercontent.com/u/3492731/process/cp_process_rc3.bsp'
+  , valveOfficial: true
   , isInRotation: true
   , leaguesPlayedIn: 'ESEA, ETF2L, UGC, OZFL, AFL'
   , description: [
@@ -37,7 +38,10 @@ var maps = {
         + 'be a staple for seasons to come. It has been played in ESEA, starting in Season 11,  '
         + 'ETF2L starting with season 13, OZfortress League, and in numerous Highlander pick up games, '
         + 'as well as in UGC season 9. It also won second place in the Asymmetry/Symmetry contest '
-  + 'from TF2maps.net.'
+        + 'from TF2maps.net.'
+
+    , 'cp_process was purchased by Valve Software in July of 2013. It is now an official community '
+        + 'map available with any download of Team Fortress 2.'
     ]
   }
 , cp_standin: { name: 'cp_standin'
@@ -48,6 +52,7 @@ var maps = {
     , 'http://www.youtube.com/embed/rzhGLS6QmS8'
     ]
   , downloadLink: 'https://dl.dropbox.com/u/3492731/standin/cp_standin_rc1.bsp'
+  , valveOfficial: true
   , isInRotation: false
   , leaguesPlayedIn: 'ESEA, UGC, OZFL, AFL'
   , description: [
@@ -103,6 +108,9 @@ var maps = {
         + 'League. It is unlikely to be played again in ESEA, but UGC admins seem fairly receptive '
         + 'to it, and it may see some additional play in Highlander (it was scheduled to be played '
         + 'in UGC season 9, but was replaced at the last minute).'
+
+    , 'cp_standin was purchased by Valve Software in July of 2013. It is now an official community '
+        + 'map available with any download of Team Fortress 2.'
     ]
   }
 , cp_metalworks: { name: 'cp_metalworks'
