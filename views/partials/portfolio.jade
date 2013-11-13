@@ -19,10 +19,11 @@
                   else
                     b Played in:
                 li= map.leaguesPlayedIn
-              li
-                a(href= map.downloadLink)
-                  i.icon-download
-                  b Download
+              if map.downloadLink
+                li
+                  a(href= map.downloadLink)
+                    i.icon-download
+                    b Download
         .span6.scorpio-map-description-right
           p= map.description[0]
           a(href='portfolio/' + map.name)

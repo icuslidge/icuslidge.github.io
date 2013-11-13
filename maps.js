@@ -6,7 +6,6 @@ var maps = {
     , 'http://www.youtube.com/embed/zBVi0BYB21A#t=11s'
     , 'http://www.youtube.com/embed/4tpotTcEeH0#t=2s'
     ]
-  , downloadLink: 'https://dl.dropboxusercontent.com/u/3492731/process/cp_process_rc3.bsp'
   , valveOfficial: true
   , isInRotation: true
   , leaguesPlayedIn: 'ESEA, ETF2L, UGC, OZFL, AFL'
@@ -51,7 +50,6 @@ var maps = {
     , 'http://www.youtube.com/embed/tsl4hwNwCb4'
     , 'http://www.youtube.com/embed/rzhGLS6QmS8'
     ]
-  , downloadLink: 'https://dl.dropbox.com/u/3492731/standin/cp_standin_rc1.bsp'
   , valveOfficial: true
   , isInRotation: false
   , leaguesPlayedIn: 'ESEA, UGC, OZFL, AFL'
@@ -119,7 +117,7 @@ var maps = {
       'http://www.youtube.com/embed/_B_EOVMfT5g#t=8s'
     , 'http://www.youtube.com/embed/M2Ylmd0BREk'
     ]
-  , downloadLink: 'https://dl.dropboxusercontent.com/u/3492731/revenant/cp_metalworks_rc4.bsp'
+  , downloadLink: 'https://dl.dropboxusercontent.com/u/3492731/revenant/cp_metalworks_rc5.bsp'
   , isInRotation: true
   , leaguesPlayedIn: 'ESEA'
   , description: [
