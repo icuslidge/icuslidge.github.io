@@ -8,7 +8,7 @@ var maps = {
     ]
   , valveOfficial: true
   , isInRotation: true
-  , leaguesPlayedIn: 'ESEA, ETF2L, UGC, OZFL, AFL'
+  , leaguesPlayedIn: 'ESEA, ETF2L, UGC, OZFL, OWL, AFL'
   , description: [
       'cp_process is a five control point push map. A team wins by capturing all five control '
         + 'points at once, which must be done linearly by capturing the neutral middle and then '
@@ -119,7 +119,7 @@ var maps = {
     ]
   , downloadLink: 'https://dl.dropboxusercontent.com/u/3492731/revenant/cp_metalworks_rc5.bsp'
   , isInRotation: true
-  , leaguesPlayedIn: 'ESEA'
+  , leaguesPlayedIn: 'ESEA, ETF2L, UGC, OZFL, OWL, AFL'
   , description: [
       'cp_metalworks is a five control point push map. It is a remake of my first map, '
         + 'cp_resonance, which was incredibly useful for learning the basics of hammer (namely, '
