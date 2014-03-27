@@ -2,8 +2,8 @@ var maps = {
   koth_coalplant: { name: 'koth_coalplant'
   , imageDirectory: 'koth_coalplant_b7'
   , videos: [
-      'https://www.youtube.com/watch?v=pQZtpPfZVUs'
-    , 'https://www.youtube.com/watch?v=Qa_Tes65Eu8'
+      'http://www.youtube.com/embed/pQZtpPfZVUs'
+    , 'http://www.youtube.com/embed/Qa_Tes65Eu8'
     ]
   , downloadLink: 'https://dl.dropboxusercontent.com/u/3492731/Ashville/koth_coalplant_b8.bsp'
   , isInRotation: true
