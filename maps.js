@@ -1,5 +1,147 @@
 var maps = {
-  cp_process: { name: 'cp_process'
+  koth_coalplant: { name: 'koth_coalplant'
+  , imageDirectory: 'koth_coalplant_b7'
+  , videos: [
+      'https://www.youtube.com/watch?v=pQZtpPfZVUs'
+    , 'https://www.youtube.com/watch?v=Qa_Tes65Eu8'
+    ]
+  , downloadLink: 'https://dl.dropboxusercontent.com/u/3492731/Ashville/koth_coalplant_b8.bsp'
+  , isInRotation: true
+  , leaguesPlayedIn: 'ESEA, CEVO, UGC, OZFL'
+  , description: [
+      'koth_coalplant has a somewhat strange history. The first version of the map was called '
+        + 'koth_ashville, and was created by Kevin "Mackey" Mackey, a high level competitive '
+        + 'TF2 player. It saw some play in ESEA, but was ultimately voted out. Though it had a '
+        + 'very solid layout and some interesting gameplay choices, the visual design was quite '
+        + 'limited.'
+
+    , 'Towards the end of my work on standin and process, Mackey approached me about creating a '
+        + '5cp version of koth_ashville. I started work on it in 2011, and the final version '
+        + '(cp_ashville_b6) was played in ESEA Season 12. I really liked the visual style of the '
+        + 'map, but, unfortunately competitive players didn\'t enjoy playing on it. Due to some '
+        + 'oddities concerning the size of the layout, it was voted out of ESEA. I considered '
+        + 'reworking it in an attempt to solve some of the layout problems, but ultimately I '
+        + 'scrapped those ideas. The last point didn\'t seem fixable, and the second didn\'t '
+        + 'have nearly enough appeal to really warrant a remake.'
+
+    , 'However, given all the work that went into detailing it, I didn\'t want give it up '
+        + 'entirely, and so I set about remaking it into a koth map (back to its roots, so to '
+        + 'speak), which involved quite a few changes to the original layout. This included '
+        + 'adjusting the size of the warehouse and catwalk area at middle, as well as shrinking '
+        + 'the trainyard area at the second point, and transforming the main entrance to the '
+        + 'last point into a fully functioning respawn room.'
+
+    , 'Coalplant\'s visual design is something I\'ve always really enjoyed. Though I\'m well '
+        + 'known in competitive circles for cp_process\' bright alpine visuals, coalplant and '
+        + 'standin\'s darker, layered visual style are much more interesting to me. However, '
+        + 'this does create some issues for competitive players, who value function highly, and '
+        + 'see the darker visuals of coalplant as restrictive, making it hard to identify enemy '
+        + 'players. I think that some of their concerns are exaggerated (I\'ve never had trouble '
+        + 'finding enemy players while playing coalplant) but it is definitely something to keep '
+        + 'in mind when designining for such a specific audience.'
+
+    , 'Koth_coalplant has been played in ESEA, saw some play in OZfortress, and is currently '
+        + 'played in UGC. It\'s still in development, and I\'m tweaking it to fit in with some '
+        + 'competitive player feedback, but could be completed at any time.'
+    ]
+  }
+, koth_airfield: { name: 'koth_airfield'
+  , imageDirectory: 'koth_airfield_b7'
+  , videos: [
+    ]
+  , downloadLink: 'https://dl.dropboxusercontent.com/u/3492731/airfield/koth_airfield_b7.bsp'
+  , isInRotation: true
+  , leaguesPlayedIn: 'CEVO, UGC'
+  , description: [
+      'koth_airfield was created after Valve purchased standin and process. With both of those maps '
+        + 'now out of my hands, I had spare time and no other map projects that needed immediate '
+        + 'attention, so I set out to make a koth map. As I\'d never made a desert themed map before, '
+        + 'I decided to emulate some of the rocky hills and concrete structures from pl_badwater, '
+        + 'while adding some 45 degree angles to create interesting sightlines. It was mostly '
+        + 'conceived as a distraction so I could try out a new visual environment, but the end '
+        + 'results turned out much better than I expected.'
+
+    , 'The original design of the map was much more concrete and ramps, but very quickly I realized '
+        + 'it would result in quite a few deadzones that players could fall into and get destroyed. '
+        + 'It also had quite a few flank options underneath, but very few direct ways to get '
+        + 'immediately back onto the point. Looking to pl_badwater, I decided to push some '
+        + 'displacements quite a bit further, creating very natural surfaces that quite easily '
+        + 'transition from lower to higher ground, while also using badwater mesh boulders to block '
+        + 'sightlines and offer scouts and soldiers interesting perches to get around the map.'
+
+    , 'The inclusion of the airfield was mostly down to some feedback from Valve mappers. They felt '
+        + 'that a weakness of my design was that my levels were a bit too abstract, with very few '
+        + 'visual indicators to explain what the locations were supposed to be. The area behind the '
+        + 'spawn in airfield was large and open, offering me a perfect opportunity to create a fairly '
+        + 'sprawling airport. The only issue was actually finding the right art assets to sell it.'
+
+    , 'A friend on Steam, Ruskeydoo (http://steamcommunity.com/profiles/76561197993590139/), had '
+        + 'expressed interest in working on some 3d models for some maps of mine. Our scheduling '
+        + 'didn\'t quite work out at the time, but when I started fully detailing airfield, I '
+        + 'contacted him again, and he got to work. The two airplane models were created by him, '
+        + 'with some reference images I found to give him a direction, attempting to maintain the '
+        + 'realism of the TF2 60\'s, compared to other more extreme airplane models that I had seen. '
+        + 'I had to make some adjustments to the size of the airport to accommodate the cargo plane, '
+        + 'and Ruskey had to adjust the size of the wings to fit in the given area.'
+
+    , 'Though koth_airfield wasn\'t really designed with competitive play at the forefront of my '
+        + 'mind (it was mostly playtested on public servers), it has been played in the inaugural '
+        + 'season of UGC\'s 4v4 league, and was included in the preseason of CEVO\'s 6v6 league.'
+    ]
+  }
+, cp_rooftop: { name: 'cp_rooftop'
+  , imageDirectory: 'cp_rooftop_b6'
+  , videos: [
+    ]
+  , downloadLink: 'https://dl.dropboxusercontent.com/u/3492731/rooftop/cp_rooftop_b6.bsp'
+  , isInRotation: false
+  , leaguesPlayedIn: ''
+  , description: [
+      'cp_rooftop was created to serve two purposes. First, it gave me a chance to create a level '
+        + 'based around a mashup of Mirror\'s Edge\'s clean cityscape and koth_king\'s dirtier '
+        + 'urban take on TF2. And second, it allowed me to fix some of the layout flaws of '
+        + 'cp_standin that became apparent after I finished developing it. It also gave me an '
+        + 'opportunity to work a bit more in the realm of the 45 degree angle, forcing myself to '
+        + 'think a bit more about how geometry comes together.'
+
+      , 'The original idea for rooftop was a CTF map, where teams would push out across a series '
+        + 'of rooftop structures to try and invade the opposing base and return, while also '
+        + 'avoiding a hazardous trip to the ground below. However, given the relative lack of '
+        + 'good CTF maps to draw from, I scrapped that idea, and instead returned to an earlier '
+        + 'idea concerning the layout for cp_standin. For that version, the B point would be in an '
+        + 'internal space, and then the A and C points would be located outside. This would help '
+        + 'differentiate the three points, making sure players knew exactly where they needed to '
+        + 'go in order to prevent the enemy team from winning, and also ensured that the three '
+        + 'points were separate but still accessible.'
+
+      , 'Rooftop has been an interesting map to develop. The playable space of the map came '
+        + 'together quite quickly, and has had very few changes to the layout. Its balanced, and '
+        + 'it works quite well in terms of players being able to transition between the various '
+        + 'areas. The exterior area of the map, however, has present something of a problem. '
+        + 'Though koth_king has been quite influential in terms of the basic idea of what the '
+        + 'exterior should look like, it actually doesn\'t work very well to try and implement a '
+        + 'koth_king skyline in cp_rooftop. A lot of that has to do with the size of rooftop, as '
+        + 'well as the vantage point. Koth_king takes place at ground level, while rooftop is much '
+        + 'higher. The art assets for koth_king are meant to be seen from below, and relatively up '
+        + 'close, and the optimization of the map functions best when things around a corner '
+        + 'aren\'t visible.'
+
+      , 'Rooftop, on the other hand, is quite a bit further from the buildings and structures, '
+        + 'meaning that smaller details aren\'t easily visible. Additionally, much more of the '
+        + 'map is visible at once, so the more intricate the detailing the worse the performance. '
+        + 'On top of that, the way that koth_king generates brushes runs up against the source '
+        + 'engines brush limit, a problem that has been replicated in initial versions of '
+        + 'cp_rooftop. I\'ve been examining Mirror\'s Edge again to get a better idea on what sort '
+        + 'of assets would be needed to create cleaner structures, and better optimization as far '
+        + 'as detailing. Quite a lot of the buildings in Mirror\'s Edge are composed of a few '
+        + 'brushes with complementary textures to give the impression of windows, rather than a '
+        + 'maze of props or individual brushes.'
+
+      , 'Rooftop is still a work in progress, as I tinker with the visual style of the surroundings. '
+        + 'The gameplay is where I want it to be, but some visual elements are sure to be reworked.'
+    ]
+  }
+, cp_process: { name: 'cp_process'
   , imageDirectory: 'cp_process_b10'
   , videos: [
       'https://www.youtube.com/embed/q0t5zkrIiPc'
@@ -8,7 +150,7 @@ var maps = {
     ]
   , valveOfficial: true
   , isInRotation: true
-  , leaguesPlayedIn: 'ESEA, ETF2L, UGC, OZFL, OWL, AFL'
+  , leaguesPlayedIn: 'ESEA, CEVO, ETF2L, UGC, OZFL, OWL, AFL'
   , description: [
       'cp_process is a five control point push map. A team wins by capturing all five control '
         + 'points at once, which must be done linearly by capturing the neutral middle and then '
@@ -119,7 +261,7 @@ var maps = {
     ]
   , downloadLink: 'https://dl.dropboxusercontent.com/u/3492731/revenant/cp_metalworks_rc5.bsp'
   , isInRotation: true
-  , leaguesPlayedIn: 'ESEA, ETF2L, UGC, OZFL, OWL, AFL'
+  , leaguesPlayedIn: 'ESEA, CEVO, ETF2L, UGC, OZFL, OWL, AFL'
   , description: [
       'cp_metalworks is a five control point push map. It is a remake of my first map, '
         + 'cp_resonance, which was incredibly useful for learning the basics of hammer (namely, '
