@@ -30,7 +30,7 @@ var maps = {
         + 'Granary\'s middle, but plays out quite differently with numerous areas to push and '
         + 'hold. Second has a much shorter spire than Badlands, but also features numerous ways to '
         + 'rotate around the spire and engage the enemy team. Last is the most different, a very '
-        + 'minimal version of Well, but also offers numerous affective ways in to engage the enemy '
+        + 'minimal version of Well, but also offers numerous effective ways in to engage the enemy '
         + 'team.'
 
     , 'Process has been quite well received by many competitive players, and is highly likely to '
@@ -142,10 +142,7 @@ var maps = {
         + 'diverse and interesting layout. I especially enjoy that it is 100% my layout from start '
         + 'to finish, and how it reflects my sensibilites.'
 
-    , 'metalworks has been played in versions of the OZfortress League. It was set to be voted '
-        + 'into ESEA Season 9, but ran into a snag when players attempted to vote out '
-        + 'cp_gravelpit, which was then promptly voted back in. It was then (finally) voted in for '
-        + 'Season 12, where it performed fairly well.'
+    , 'It is now a staple competitive map, played continuously in ESEA, ETF2L, and OZfortress.'
     ]
   }
 , cp_ashville: { name: 'cp_ashville'
@@ -196,8 +193,8 @@ var maps = {
     , 'http://www.youtube.com/embed/wcRcNZAYgao'
     ]
   , downloadLink: 'https://dl.dropbox.com/u/3492731/ctf_haunt/ctf_haunt_b2.bsp'
-  , isInRotation: true
-  , leaguesPlayedIn: 'UGC'
+  , isInRotation: false
+  , leaguesPlayedIn: ''
   , description: [
       'ctf_haunt is a remake of ctf_vitalism which was going to be my entry in the TF2Maps.net '
         + 'competitive capture the flag contest. About halfway through the contest, I got somewhat '
