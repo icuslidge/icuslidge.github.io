@@ -153,6 +153,7 @@ var maps = {
     ]
   , downloadLink: 'https://dl.dropbox.com/u/3492731/Ashville/cp_ashville_b6.bsp'
   , isInRotation: false
+  , isHidden: true
   , leaguesPlayedIn: ''
   , description: [
       'cp_ashville is a five control point push map. It was designed at a request by Leviathan '
@@ -243,6 +244,7 @@ var maps = {
   , downloadLink: 'https://dl.dropbox.com/u/3492731/cp_frost_b6.bsp'
   , isInRotation: false
   , leaguesPlayedIn: ''
+  , isHidden: true
   , description: [
       'cp_frost was a 5cp map built for competitive play. However, due to some significant layout '
         + 'problems, it has been discontinued.'
@@ -278,6 +280,7 @@ var maps = {
   , downloadLink: 'https://dl.dropbox.com/u/3492731/cp_extraction_rc2.bsp'
   , isInRotation: false
   , leaguesPlayedIn: ''
+  , isHidden: true
   , description: [
       'cp_extraction was a three control point attack/defend map based off cp_gravelpit. It was '
         + 'designed to be a solid hydro themed map intended for competitive play. Due to a lack of '
@@ -303,6 +306,7 @@ var maps = {
   , downloadLink: 'https://dl.dropbox.com/u/3492731/cp_warmachine_rc4.bsp'
   , isInRotation: false
   , leaguesPlayedIn: ''
+  , isHidden: true
   , description: [
       'cp_warmachine was an attack defend map built around a linear layout, with many dynamic '
         + 'doorways and pathways similar to cp_steel. It was designed to be a fun and quick map '
