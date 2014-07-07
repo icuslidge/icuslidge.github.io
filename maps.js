@@ -48,8 +48,9 @@ var maps = {
 , koth_airfield: { name: 'koth_airfield'
   , imageDirectory: 'koth_airfield_b7'
   , videos: [
+      'http://www.youtube.com/embed/481gwDR2qEQ'
     ]
-  , downloadLink: 'https://dl.dropboxusercontent.com/u/3492731/airfield/koth_airfield_b7.bsp'
+  , downloadLink: 'https://dl.dropboxusercontent.com/u/3492731/airfield/koth_airfield_b8.bsp'
   , isInRotation: true
   , leaguesPlayedIn: 'CEVO, UGC'
   , description: [
