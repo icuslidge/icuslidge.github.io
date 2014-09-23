@@ -82,7 +82,6 @@ var assetManager = require('connect-assetmanager')({
     , 'app.js'
     , 'lib/isotope.js'
     , 'lib/jquery.colorbox.js'
-    // , 'lib/knob.js'
     , 'lib/jquery.cookie.js'
     // , '*'
     ]
