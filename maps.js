@@ -190,7 +190,6 @@ var maps = {
   , imageDirectory: 'cp_standin_rc1'
   , videos: [
       'http://www.youtube.com/embed/gElC-xIlDoo#t=11m22s'
-    , 'http://www.youtube.com/embed/tsl4hwNwCb4'
     , 'http://www.youtube.com/embed/rzhGLS6QmS8'
     ]
   , valveOfficial: true
@@ -333,7 +332,6 @@ var maps = {
   , imageDirectory: 'ctf_haunt_b1'
   , videos: [
       'http://www.youtube.com/embed/Hft61AcejGY'
-    , 'http://www.youtube.com/embed/jMx8XCzLtNw'
     , 'http://www.youtube.com/embed/wcRcNZAYgao'
     ]
   , downloadLink: 'https://dl.dropbox.com/u/3492731/ctf_haunt/ctf_haunt_b2.bsp'
