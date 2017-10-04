@@ -115,19 +115,30 @@ app.get('/', function (req, res) {
 app.get('/dummy', function (req, res) {
   res.render('dummy');
 });
-app.get('/map/:name', function (req, res, next) {
-  var map = maps[req.params.name];
-  if (!map) {
-    res.send(404);
-  } else {
-    res.render('partials/map', {
-      map: map
-    });
-  }
+
+// in order to snapshot all the paths, explicitly list them instead of relying on :params
+// app.get('/partials/:name', renderPartial);
+['home', 'bio', 'portfolio'].forEach(function (partial) {
+  app.get('/partials/' + partial, function (req, res) {
+    res.render('partials/' + partial);
+  });
+
+  app.get('/' + partial, function (req, res) {
+    res.render('index');
+  });
 });
-app.get('/partials/:name', function (req, res) {
-  res.render('partials/' + req.params.name);
+
+// app.get('/map/:name', renderMap);
+Object.keys(maps).forEach(function (mapName) {
+  app.get('/map/' + mapName, function (req, res) {
+    res.render('partials/map', { map: maps[mapName] });
+  });
+
+  app.get('/portfolio/' + mapName, function (req, res) {
+    res.render('index');
+  });
 });
+
 app.get('*', function (req, res) {
   res.render('index');
 });
