@@ -2,13 +2,13 @@
   .post.clearfix
     .span9.img-polaroid.post-img
       .callbacks_container
-        img(src='img/map/'+map.imageDirectory+'/'+map.imageDirectory+'.jpg', alt=map.name)
+        img(src='public/img/map/'+map.imageDirectory+'/'+map.imageDirectory+'.jpg', alt=map.name)
     .span9.post-content.clearfix
       .span4
         if map.imageDirectory
           #container.clearfix.isotope(isotope)
             - for (var i=1; i<=(map.numOfImages || 15); ++i) {
-            - var image = 'img/map/' + map.imageDirectory + '/' + map.imageDirectory + '_' + i + '.jpg'
+            - var image = 'public/img/map/' + map.imageDirectory + '/' + map.imageDirectory + '_' + i + '.jpg'
               .element
                 .thumbs
                   a.picture(ng-href='')

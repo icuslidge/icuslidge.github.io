@@ -3,14 +3,14 @@
     if !map.isHidden
       .blog.clearfix
         .span9.img-polaroid.blog-img
-          a(href='portfolio/' + map.name)
-            img(alt='content', src= 'img/map/'+map.imageDirectory+'/'+map.imageDirectory+'.jpg')
+          a(href='portfolio/' + map.name + '/')
+            img(alt='content', src= 'public/img/map/'+map.imageDirectory+'/'+map.imageDirectory+'.jpg')
           .marker
             i.icon-bookmark
         .span9.blog-content.scorpio-map-description
           .span2.blog-title
             .scorpio-map-description-left
-              a(href='portfolio/' + map.name)
+              a(href='portfolio/' + map.name + '/')
                 h4= map.name
               ul.icons
                 if map.leaguesPlayedIn
@@ -27,7 +27,7 @@
                       b Download
           .span6.scorpio-map-description-right
             p= map.description[0]
-            a(href='portfolio/' + map.name)
+            a(href='portfolio/' + map.name + '/')
               h5.read-more Read More...
           //- .span9.tag.clearfix
 .span9.offset1.scorpio-spacer

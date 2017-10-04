@@ -12,35 +12,26 @@ html(lang='en', ng-app='myApp')
     meta(name='viewport', content='width=device-width, initial-scale=1, minimum-scale=1')
     //- end: Mobile Specific
     //- start: CSS
-    //- link( rel='stylesheet'
-        , href='/css/all-'+(assetManager.cacheHashes.css || '0')+'.css' )
-    link(rel='stylesheet', href='css/bootstrap.css')
-    link(rel='stylesheet', href='css/bootstrap-responsive.css')
-    link(rel='stylesheet', href='css/colorbox.css')
+    link(rel='stylesheet', href='public/css/bootstrap.css')
+    link(rel='stylesheet', href='public/css/bootstrap-responsive.css')
+    link(rel='stylesheet', href='public/css/colorbox.css')
 
-    link(rel='stylesheet', href='css/font-awesome.css')
-    link(rel='stylesheet', href='css/isotope.css')
-    link(rel='stylesheet', href='css/canvas-menu.css')
-    link(rel='stylesheet', href='css/animate.css')
-    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400')
-    link(rel='stylesheet', href='css/style.css')
+    link(rel='stylesheet', href='public/css/font-awesome.css')
+    link(rel='stylesheet', href='public/css/isotope.css')
+    link(rel='stylesheet', href='public/css/canvas-menu.css')
+    link(rel='stylesheet', href='public/css/animate.css')
+    link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,400')
+    link(rel='stylesheet', href='public/css/style.css')
     //- end: CSS
     //- start: style switcher
-    link.switchable(rel='stylesheet', href='css/style-bgd-maze-white.css')
-    //- link.switchable(rel='stylesheet', href='css/style-color-orange.css')
-    //- link.switchable(rel='stylesheet', href='css/style-color-SteelBlue.css')
-    link.switchable(rel='stylesheet', href='css/style-color-SteelBlue.css')
+    link.switchable(rel='stylesheet', href='public/css/style-bgd-maze-white.css')
+    link.switchable(rel='stylesheet', href='public/css/style-color-SteelBlue.css')
     //- end: style switcher
     noscript
-      link(rel='stylesheet', type='text/css', href='css/nojs.css')
+      link(rel='stylesheet', type='text/css', href='public/css/nojs.css')
     //- start: favicon
     link(href='//s3.amazonaws.com/wrapbootstrap/live/imgs/favicon.ico', rel='shortcut icon')
     //- end: favicon
-    //if IE 9
-      style.
-    //if IE 8
-      style.
-        .nav-btn{display:none}.close-btn{display:none}.home-marker {top: 74px;}
   body(ng-controller='MainCtrl')
     block body
     //- start: script
@@ -49,20 +40,19 @@ html(lang='en', ng-app='myApp')
       script( src='//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js' )
       script( src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js' )
       script( src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.min.js' )
-      script( src='js/all-'+(assetManager.cacheHashes.js || '0')+'.js' )
     - else
-      script( src='js/lib/jquery/jquery-1.11.1.min.js' )
-      script( src='js/lib/bootstrap/bootstrap.js' )
-      script( src='js/lib/angular/angular.min.js' )
-      script( src='js/lib/angular/angular-route.min.js' )
-      script( src='js/lib/modernizr.js')
-      script( src='js/custom.js' )
-      script( src='js/app.js' )
-      script(src='js/lib/isotope.js')
-      script(src='js/lib/jquery.colorbox.js')
-      script(src='js/lib/jquery.cookie.js')
+      script( src='public/js/lib/jquery/jquery-1.11.1.min.js' )
+      script( src='public/js/lib/bootstrap/bootstrap.js' )
+      script( src='public/js/lib/angular/angular.min.js' )
+      script( src='public/js/lib/angular/angular-route.min.js' )
+    script( src='public/js/lib/modernizr.js')
+    script( src='public/js/custom.js' )
+    script( src='public/js/app.js' )
+    script(src='public/js/lib/isotope.js')
+    script(src='public/js/lib/jquery.colorbox.js')
+    script(src='public/js/lib/jquery.cookie.js')
 
     //- end: script
     //- HTML5 shim, for IE6-8 support of HTML5 elements
     //if lt IE 9
-      script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
+      script(src='//html5shim.googlecode.com/svn/trunk/html5.js')

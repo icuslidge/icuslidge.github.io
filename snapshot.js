@@ -10,6 +10,7 @@ var http = require('http-promise');
 var mkdirp = Promise.promisify(require('mkdirp'));
 var write = Promise.promisify(require('fs').writeFile);
 var fetch = Promise.promisify(require('request'));
+var getport = require('getport');
 
 var app = require('./app');
 
@@ -23,25 +24,30 @@ function snapshot(app) {
     total: (stack.length * 2) + 1
   });
 
-  server
-    .listen(6044)
-    .return(stack)
-    .each(function (route) {
-      progress.tick(1, { status: 'fetching ' + route.path });
+  getport(function(err, port) {
+    if (err) { return console.error(err); }
 
-      return mkdirp(folderpath(route, outputDir))
-        .then(fetchHtml(route))
-        .then(returnResponse)
-        .tap(function () {
-          progress.tick(1, { status: 'writing ' + filepath(route, outputDir) });
-        })
-        .then(writeHtml(filepath(route, outputDir)));
-    })
-    .then(function () {
-      progress.tick(1, { status: 'finished' });
-      server.close();
-    })
-    .catch(console.error);
+    server
+      .listen(port)
+      .return(stack)
+      .each(function (route) {
+        progress.tick(1, { status: 'fetching ' + route.path });
+        var url = 'http://localhost:' + port + route.path;
+
+        return mkdirp(folderpath(route, outputDir))
+          .then(fetchHtml(url))
+          .then(returnResponse)
+          .tap(function () {
+            progress.tick(1, { status: 'writing ' + filepath(route, outputDir) });
+          })
+          .then(writeHtml(filepath(route, outputDir)));
+      })
+      .then(function () {
+        progress.tick(1, { status: 'finished' });
+        server.close();
+      })
+      .catch(console.error);
+  });
 };
 
 function routes(app) {
@@ -66,9 +72,9 @@ function folderpath(route, outputDir) {
   return outputDir + route.path;
 }
 
-function fetchHtml(route) {
+function fetchHtml(url) {
   return function () {
-    return fetch('http://localhost:6044' + route.path);
+    return fetch(url);
   }
 }
 

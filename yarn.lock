@@ -229,13 +229,6 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
 
-connect-assetmanager@*:
-  version "0.0.28"
-  resolved "https://registry.yarnpkg.com/connect-assetmanager/-/connect-assetmanager-0.0.28.tgz#b1f64d2c3b6974c7cdeaf045330dab487610a3c4"
-  dependencies:
-    request ">=0.10.0"
-    step ">=0.0.3"
-
 connect-timeout@~1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/connect-timeout/-/connect-timeout-1.3.0.tgz#d9d1d2df2900d490ed54190809f37e6b4508a1ec"
@@ -537,6 +530,10 @@ getpass@^0.1.1:
   resolved "https://registry.yarnpkg.com/getpass/-/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
   dependencies:
     assert-plus "^1.0.0"
+
+getport@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/getport/-/getport-0.1.0.tgz#abddf3d5d1e77dd967ccfa2b036a0a1fb26fd7f7"
 
 har-schema@^2.0.0:
   version "2.0.0"
@@ -913,7 +910,7 @@ readdirp@~0.2.3:
   dependencies:
     minimatch ">=0.2.4"
 
-request@>=0.10.0, request@^2.83.0:
+request@^2.83.0:
   version "2.83.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.83.0.tgz#ca0b65da02ed62935887808e6f510381034e3356"
   dependencies:
@@ -1058,10 +1055,6 @@ sshpk@^1.7.0:
 statuses@1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.3.1.tgz#faf51b9eb74aaef3b3acf4ad5f61abf24cb7b93e"
-
-step@>=0.0.3:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/step/-/step-1.0.0.tgz#b300e9d2ae9057d4d78633aae2303813a94bdff2"
 
 stream-counter@~0.2.0:
   version "0.2.0"

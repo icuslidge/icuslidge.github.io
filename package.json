@@ -6,12 +6,12 @@
     "node": "8.x"
   },
   "dependencies": {
-    "connect-assetmanager": "*",
     "express": "~3.17",
     "jade": "~1.7"
   },
   "devDependencies": {
     "bluebird": "~2.x",
+    "getport": "^0.1.0",
     "http-promise": "^0.1.4",
     "mkdirp": "^0.5.1",
     "progress": "^2.0.0",

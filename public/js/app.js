@@ -9,16 +9,16 @@ var app = angular.module('myApp', ['ngRoute'])
                            , function ($routeProvider, $locationProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'partials/home'
+        templateUrl: 'partials/home/'
       })
-      .when('/bio', {
-        templateUrl: 'partials/bio'
+      .when('/bio/', {
+        templateUrl: 'partials/bio/'
       })
-      .when('/portfolio', {
-        templateUrl: 'partials/portfolio'
+      .when('/portfolio/', {
+        templateUrl: 'partials/portfolio/'
       })
-      .when('/portfolio/:name', {
-        templateUrl: 'dummy'
+      .when('/portfolio/:name/', {
+        templateUrl: 'dummy/'
       , controller: 'MapCtrl'
       })
       .otherwise({
@@ -27,7 +27,7 @@ var app = angular.module('myApp', ['ngRoute'])
     $locationProvider.html5Mode(true);
   }])
   .controller('MapCtrl', function ($scope, $route, $routeParams, $compile) {
-    $route.current.templateUrl = 'map/' + $routeParams.name;
+    $route.current.templateUrl = 'map/' + $routeParams.name + '/';
 
     $.get($route.current.templateUrl, function (data) {
       $scope.$apply(function () {

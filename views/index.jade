@@ -23,11 +23,9 @@ block body
                 li.is-active
                   a.info(href='/') Info
                 li
-                  a.bio(href='bio') Bio
+                  a.bio(href='bio/') Bio
                 li
-                  a.portfolio(href='portfolio') Portfolio
-                //- li
-                  a.gallery(href='gallery') Gallery
+                  a.portfolio(href='portfolio/') Portfolio
               a#nav-close-btn.close-btn(ng-href='')
                 i.icon-remove.icon-2x.icon-border
           //- .social
@@ -41,7 +39,8 @@ block body
               i.icon-pinterest-sign
       //- end: sidebar
       //- start: content
-      .content(ng-view)
+      .content
+        div(ng-view)
       //- end: content
       //- start: back to top
       .up
