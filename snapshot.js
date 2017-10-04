@@ -16,7 +16,8 @@ var app = require('./app');
 
 function snapshot(app) {
   var date = new Date();
-  var outputDir = 'snapshot-' + date.toISOString();
+  // var outputDir = 'snapshot-' + date.toISOString();
+  var outputDir = 'snapshot';
   var server = http.createServerAsync(app);
   var stack = routes(app);
   var progress = new Progress('[:bar] :status', {
