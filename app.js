@@ -1,41 +1,5 @@
-
-/**
- * Module dependencies.
- */
-
-var express = require('express')
-  , app = module.exports = express()
-  , http = require('http')
-  , server = http.createServer(app)
-  , npid = require('./lib/pid')
-  , cfg = require('./cfg/cfg');
-
-// Create a pidfile with the worker's ID and pid
-try {
-  npid.create(__dirname + '/worker-' + process.pid + '.pid', true);
-} catch (err) {
-  console.log(err);
-  process.exit(1);
-}
-
-process.on('SIGTERM', exit);
-process.on('SIGINT', exit);
-// process.on('SIGKILL', exit); // This breaks in node v0.10.x
-
-// This is for removing the pidfile when nodemon restarts due to changes
-process.once('SIGUSR2', function() {
-  npid.remove(__dirname + '/worker-' + process.pid + '.pid');
-  process.nextTick(function() {
-    process.kill(process.pid, 'SIGUSR2');
-  });
-});
-
-function exit (code) {
-  process.nextTick(function() {
-    process.exit(code || 0);
-  });
-}
-
+var express = require('express');
+var app = module.exports = express();
 
 /**
  * Express Configuration
@@ -166,10 +130,4 @@ app.get('/partials/:name', function (req, res) {
 });
 app.get('*', function (req, res) {
   res.render('index');
-});
-
-// Start server
-server.listen(cfg.port, function () {
-  console.log("Express server listening on port %d in %s mode"
-            , server.address().port, app.settings.env);
 });

@@ -21,16 +21,6 @@ var app = angular.module('myApp', ['ngRoute'])
         templateUrl: 'dummy'
       , controller: 'MapCtrl'
       })
-      .when('/gallery', {
-        templateUrl: 'partials/gallery'
-      // , controller: WorkCtrl
-      })
-      .when('/project', {
-        templateUrl: 'partials/project'
-      })
-      .when('/post', {
-        templateUrl: 'partials/post'
-      })
       .otherwise({
         redirectTo: '/'
       });
