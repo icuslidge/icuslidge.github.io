@@ -2,8 +2,8 @@ var maps = {
   koth_coalplant: { name: 'koth_coalplant'
   , imageDirectory: 'koth_coalplant_b7'
   , videos: [
-      'http://www.youtube.com/embed/pQZtpPfZVUs'
-    , 'http://www.youtube.com/embed/Qa_Tes65Eu8'
+      'https://www.youtube.com/embed/pQZtpPfZVUs'
+    , 'https://www.youtube.com/embed/Qa_Tes65Eu8'
     ]
   , downloadLink: 'https://dl.dropboxusercontent.com/u/3492731/Ashville/koth_coalplant_b8.bsp'
   , isInRotation: true
@@ -48,7 +48,7 @@ var maps = {
 , koth_airfield: { name: 'koth_airfield'
   , imageDirectory: 'koth_airfield_b7'
   , videos: [
-      'http://www.youtube.com/embed/481gwDR2qEQ'
+      'https://www.youtube.com/embed/481gwDR2qEQ'
     ]
   , downloadLink: 'https://dl.dropboxusercontent.com/u/3492731/airfield/koth_airfield_b8.bsp'
   , isInRotation: true
@@ -146,8 +146,8 @@ var maps = {
   , imageDirectory: 'cp_process_b10'
   , videos: [
       'https://www.youtube.com/embed/q0t5zkrIiPc'
-    , 'http://www.youtube.com/embed/zBVi0BYB21A#t=11s'
-    , 'http://www.youtube.com/embed/4tpotTcEeH0#t=2s'
+    , 'https://www.youtube.com/embed/zBVi0BYB21A#t=11s'
+    , 'https://www.youtube.com/embed/4tpotTcEeH0#t=2s'
     ]
   , valveOfficial: true
   , isInRotation: true
@@ -189,8 +189,8 @@ var maps = {
 , cp_standin: { name: 'cp_standin'
   , imageDirectory: 'cp_standin_rc1'
   , videos: [
-      'http://www.youtube.com/embed/gElC-xIlDoo#t=11m22s'
-    , 'http://www.youtube.com/embed/rzhGLS6QmS8'
+      'https://www.youtube.com/embed/gElC-xIlDoo#t=11m22s'
+    , 'https://www.youtube.com/embed/rzhGLS6QmS8'
     ]
   , valveOfficial: true
   , isInRotation: false
@@ -256,8 +256,8 @@ var maps = {
 , cp_metalworks: { name: 'cp_metalworks'
   , imageDirectory: 'cp_metalworks_rc2'
   , videos: [
-      'http://www.youtube.com/embed/_B_EOVMfT5g#t=8s'
-    , 'http://www.youtube.com/embed/M2Ylmd0BREk'
+      'https://www.youtube.com/embed/_B_EOVMfT5g#t=8s'
+    , 'https://www.youtube.com/embed/M2Ylmd0BREk'
     ]
   , downloadLink: 'https://dl.dropboxusercontent.com/u/3492731/revenant/cp_metalworks_rc5.bsp'
   , isInRotation: true
@@ -290,8 +290,8 @@ var maps = {
 , cp_ashville: { name: 'cp_ashville'
   , imageDirectory: 'cp_ashville_b6'
   , videos: [
-      'http://www.youtube.com/embed/fXH0f1-Grf0#t=48s'
-    , 'http://www.youtube.com/embed/JoOD6zBTlxc'
+      'https://www.youtube.com/embed/fXH0f1-Grf0#t=48s'
+    , 'https://www.youtube.com/embed/JoOD6zBTlxc'
     ]
   , downloadLink: 'https://dl.dropbox.com/u/3492731/Ashville/cp_ashville_b6.bsp'
   , isInRotation: false
@@ -331,8 +331,8 @@ var maps = {
 , ctf_haunt: { name: 'ctf_haunt'
   , imageDirectory: 'ctf_haunt_b1'
   , videos: [
-      'http://www.youtube.com/embed/Hft61AcejGY'
-    , 'http://www.youtube.com/embed/wcRcNZAYgao'
+      'https://www.youtube.com/embed/Hft61AcejGY'
+    , 'https://www.youtube.com/embed/wcRcNZAYgao'
     ]
   , downloadLink: 'https://dl.dropbox.com/u/3492731/ctf_haunt/ctf_haunt_b2.bsp'
   , isInRotation: false
