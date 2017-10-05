@@ -19,3 +19,6 @@ git add .
 git commit -m 'gh-pages'
 
 echo "Build successful."
+echo "You may want to do this:"
+echo "git push -u -f origin gh-pages"
+echo "git push -f git@github.com:icuslidge/icuslidge.github.io.git gh-pages:master"
